@@ -1,22 +1,22 @@
 <rss version="2.0">
   <channel>
     <title>Fremen Zone</title>
-    <link>https://jstolarek.github.io/fremenzone</link>
+    <link>https://www.fremenzone.pl</link>
     <description>Wszystko o "Diunie" Franka Herberta.</description>
     <language>pl-pl</language>
-    <lastBuildDate>nie, 23 lip 2023, 15:45:24 CEST</lastBuildDate>
+    <lastBuildDate>czw, 1 lut 2024, 20:35:18 CET</lastBuildDate>
     <image>
-      <url>https://jstolarek.github.io/favicon.png</url>
+      <url>https://www.fremenzone.pl/favicon.png</url>
       <title>Fremen Zone</title>
-      <link>https://jstolarek.github.io/fremenzone</link>
+      <link>https://www.fremenzone.pl</link>
     </image>
   </channel>
   <item>
     <title>Startuje nowa wersja Fremen Zone</title>
-    <link>https://jstolarek.github.io/fremenzone</link>
+    <link>https://www.fremenzone.pl/</link>
     <author>Jan Stolarek</author>
-    <description>TODO</description>
-    <pubDate>nie, 23 lip 2023, 15:45:24 CEST</pubDate>
+    <description>Rusza nowa wersja Fremen Zone.  Na początek recenzja książki <a href="https://www.fremenzone.pl/ksiazki/roj-hellstroma.html">Rój Hellstroma</a>, filmu <a href="https://www.fremenzone.pl/filmy/diuna-2021.html">Diuna: Część Pierwsza</a>, gry komputerowej <a href="https://www.fremenzone.pl/gry/komputerowe/behindthedune.html">Behind The Dune</a>, planszówki <a href="https://www.fremenzone.pl/gry/planszowe/diuna-imperium.html">Diuna: Imperium</a>, oraz artykuły <a href="https://www.fremenzone.pl/artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie do uniwersum Diuny</a>, <a href="https://www.fremenzone.pl/artykuly/diuna-w-czasopismach-komputerowych-lat-90.html">Diuna w czasopismach komputerowych lat 90.</a> i <a href="https://www.fremenzone.pl/artykuly/historia-fremenzone.html">Moja fascynacja Diuną, czyli jak powstało Fremen Zone</a>.</description>
+    <pubDate>czw, 1 lut 2024, 20:35:18 CET</pubDate>
     <guid>82a0e72c-3caa-4916-adc3-7cc3803e80fd</guid>
   </item>
 </rss>

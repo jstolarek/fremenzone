@@ -140,7 +140,6 @@ main {
 
 /* Główna część sekcji.  Powinna być poprzedzona nagłówkiem .section-header */
 .section-body {
-  text-align: justify;
   background-color: #ffffcc;
   margin-bottom: 4px;
   font-family: inherit;
@@ -264,7 +263,7 @@ figcaption {
   margin-bottom: 12pt;
 }
 
-.thumbnail * img {
+.thumbnail img {
   max-width: 100%; /* Zapobiegaj przepełnieniu obrazu */
   height: auto;
 }
@@ -303,7 +302,6 @@ figcaption {
 }
 
 .warning-content {
-  text-align: justify;
   font-weight: bold;
   background-color: #f57979;
   margin-bottom: 4px;
@@ -325,7 +323,6 @@ figcaption {
 }
 
 .notification-content {
-  text-align: justify;
   font-weight: bold;
   background-color: #e3c797;
   margin-bottom: 4px;
@@ -405,6 +402,7 @@ figcaption {
 
   .section-body {
     padding: 1.0em 2em 1.5em 2em;
+    text-align: justify;
   }
 
   p {
@@ -425,6 +423,7 @@ figcaption {
 
   .section-body {
     padding: 1em;
+    text-align: left;
   }
 
   p {
