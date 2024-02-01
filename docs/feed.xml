@@ -1,0 +1,22 @@
+<rss version="2.0">
+  <channel>
+    <title>Fremen Zone</title>
+    <link>https://jstolarek.github.io/fremenzone</link>
+    <description>Wszystko o "Diunie" Franka Herberta.</description>
+    <language>pl-pl</language>
+    <lastBuildDate>nie, 23 lip 2023, 15:45:24 CEST</lastBuildDate>
+    <image>
+      <url>https://jstolarek.github.io/favicon.png</url>
+      <title>Fremen Zone</title>
+      <link>https://jstolarek.github.io/fremenzone</link>
+    </image>
+  </channel>
+  <item>
+    <title>Startuje nowa wersja Fremen Zone</title>
+    <link>https://jstolarek.github.io/fremenzone</link>
+    <author>Jan Stolarek</author>
+    <description>TODO</description>
+    <pubDate>nie, 23 lip 2023, 15:45:24 CEST</pubDate>
+    <guid>82a0e72c-3caa-4916-adc3-7cc3803e80fd</guid>
+  </item>
+</rss>

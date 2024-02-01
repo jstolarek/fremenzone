@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jan Stolarek">
+  <link rel="stylesheet" type="text/css" href="./styl.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <link rel="license" href="./LICENCJA.md">
+  <title>Fremen Zone</title>
+</head>
+
+<body>
+
+<!-- Przełączanie widoczności menu na małych ekranach -->
+<script src="./showSmallMenu.js"></script>
+
+<!-- Belka nawigacyjna -->
+<nav>
+  <!-- Duże ekrany -->
+  <div class="navbar">
+    <!-- Hamburger menu widoczne na małych ekranach. -->
+    <a class="navbar-hide-large" href="javascript:void(0);"
+       onclick="showSmallMenu()" title="Menu strony">
+      <div class="hamburger-menu-icon"></div></a>
+    <!-- Wpisy menu widoczne na dużych ekranach. -->
+    <a class="large-navbar-button navbar-hide-small navbar-active-button" href="./index.html">Wstęp</a>
+    <a class="large-navbar-button navbar-hide-small" href="./ksiazki.html">Książki</a>
+    <a class="large-navbar-button navbar-hide-small" href="./filmy.html">Filmy</a>
+    <a class="large-navbar-button navbar-hide-small" href="./gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small" href="./artykuly.html">Artykuły</a>
+    <a class="large-navbar-button navbar-hide-small" href="./pliki.html">Pliki</a>
+    <a class="large-navbar-button navbar-hide-small rss-icon" href="./feed.xml"></a>
+    <a class="large-navbar-button navbar-hide-small legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
+  </div>
+
+  <!-- Małe ekrany.  Wpisy wyświetlane/chowane z poziomu skryptu. -->
+  <div id="small-navbar-id" class="navbar navbar-hide navbar-hide-large">
+    <a class="small-navbar-button navbar-active-button" href="./index.html">Wstęp</a>
+    <a class="small-navbar-button" href="./ksiazki.html">Książki</a>
+    <a class="small-navbar-button" href="./filmy.html">Filmy</a>
+    <a class="small-navbar-button" href="./gry.html">Gry</a>
+    <a class="small-navbar-button" href="./artykuly.html">Artykuły</a>
+    <a class="small-navbar-button" href="./pliki.html">Pliki</a>
+    <a class="small-navbar-button legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
+    <a class="small-navbar-button rss-icon" href="./feed.xml"></a>
+  </div>
+</nav>
+
+<!-- Logo sekcji -->
+<header>
+  <img src="./img/index.png" class="logo" alt="">
+</header>
+
+<main>
+
+<h1 class="section-header">Wstępniak</h1>
+<div class="section-body">
+<p>
+Witam w serwisie Fremen Zone, poświęconym powieści Franka Herberta pt.
+<span class="book-title">Diuna</span> oraz wszelkim tematom pokrewnym.
+Znajdziecie tu recenzje książek, filmów, gier, publicystykę i pliki do
+ściągnięcia.
+</p>
+
+<p>Możliwe, że pamiętasz Fremen Zone z wczesnych lat dwutysięcznych.  Pierwsza
+wersja strony pojawiła się w sieci w roku 2000, istniała przez kilka lat, po
+czym, jak większość stron fanowskich z tamtego okresu, rozpłynęła się w
+niebycie.  Link do starej wersji strony znajdziesz w pasku nawigacyjnym na górze
+po prawej.  Pełną historię strony opisałem w tekście <a class="link"
+href="./artykuly/historia-fremenzone.html">Moja
+fascynacja <span class="book-title">Diuną</span>, czyli jak powstało Fremen
+Zone</a>.
+</p>
+
+<p>Strona, którą oglądasz teraz, to współczesne wcielenie Fremen Zone.
+Wszystkie recenzje i teksty piszę od nowa.  Docelowy plan jest taki, żeby
+ponownie zrecenzować wszystko, co znajdowało się w pierwotnej wersji serwisu
+&#8212; cały oryginalny cykl <span class="book-title">Diuny</span>, stare gry,
+czy ekranizację Lyncha &#8212; a także wszelkie nowości, które pojawiły się
+przez ostatnie dwie dekady.  Będzie to wymagało dużo czasu, a przed stroną
+jeszcze długa droga, zanim będzie ją można uznać za w pełni skończoną.  Dlatego
+zachęcam do zasubskrybowania <a class="link" href="./feed.xml">kanału
+RSS</a> &#8212; w ten sposób otrzymasz powiadomienia o aktualizacjach i nowych
+tekstach.
+</p>
+
+<p>
+Ponieważ strona powstała z myślą o fanach, a więc w założeniu osobach, które
+opisywany materiał znają, <b>recenzje i artykuły dotyczące
+<span class="book-title">Diuny</span> zawierają spoilery</b>.  Jeśli trafiłeś
+tutaj, nie wiedząc nic o <span class="book-title">Diunie</span>, polecam zacząć
+od tekstu <a class="link"
+href="./artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie do
+uniwersum Diuny</a>.
+</p>
+
+<p class="no-bottom-margin" style="text-align: end;">
+Kontakt: <span class="contact-mail">@</span>
+</p>
+</div>
+
+<h1 class="section-header">Najnowsza aktualizacja</h1>
+<div class="section-body">
+<p class="no-bottom-margin">
+Właśnie oglądasz pierwszą wersję nowej strony.  Na początek skupiłem się na
+recenzjach, których na starej stronie nie było:
+</p>
+
+<ul class="review-list">
+  <li><a class="link" href="./ksiazki/roj-hellstroma.html">Rój Hellstroma</a>
+  (1973)
+  <p class="abstract">
+  Zainspirowana dokumentem, który zdobył Oskara, opowieść o szalonym naukowcu,
+  wcielającym w życie wizję idealnego społeczeństwa na swojej odludnej farmie.
+  </p>
+  </li>
+
+  <li><a class="link" href="./filmy/diuna-2021.html">Diuna: Część Pierwsza</a>
+  (2021)
+  <p class="abstract">
+  Po ponad pół wieku od momentu pierwszego wydania
+  <span class="book-title">Diuna</span> w końcu doczekała się godnej
+  ekranizacji.  Film Denisa Villeneuve bardzo dobrze adaptuje materiał źródłowy
+  i jestem przekonany, że fani będą do tego filmu wracać przez kolejne dekady.
+  </p>
+  </li>
+
+  <li><a class="link" href="./gry/komputerowe/behindthedune.html">Behind The
+  Dune</a> (2016)
+  <p class="abstract">
+  Czy pomysł przerobienia oryginalnej gry <span class="game-title">Dune</span> z
+  1992 na wersję porno ma rację bytu?  Okazuje się, że jeśli podjedzie się do
+  tematu z głową, to otrzymany rezultat końcowy jest zaskakująco dobry.
+  </p>
+  </li>
+
+ <li>
+  <a class="link" href="./gry/planszowe/diuna-imperium.html">Diuna:
+  Imperium</a> (2020)
+  <p class="abstract">
+  Pierwsza od lat 90. nowa planszówka w świecie
+  <span class="book-title">Diuny</span>.  Gra euro do 4 graczy oparta o
+  mechanikę worker placement oraz budowanie talii i oferująca stosunkowo krótki
+  czas rozgrywki.  Gracze w serwisie BoardGameGeek oceniają ją wysoko, ale mnie
+  osobiście nie porwała.
+  </p>
+ </li>
+</ul>
+
+<p>
+Do tego w dziale <a class="link" href="./artykuly.html">Artykuły</a>
+znajdziecie trzy teksty.  <a class="link"
+href="./artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie do
+uniwersum Diuny</a> skierowane jest dla osób, które nie czytały
+powieści.  <a class="link" href="./artykuly/historia-fremenzone.html">Moja
+fascynacja <span class="book-title">Diuną</span>, czyli jak powstało Fremen
+Zone</a> to tekst wspomnieniowy o historii strony.  Z kolei <a class="link"
+href="./artykuly/diuna-w-czasopismach-komputerowych-lat-90.html">Diuna w
+czasopismach komputerowych lat 90.</a> stanowi przygotowanie pod przyszłe
+recenzje starych gier z uniwersum Diuny.
+</p>
+
+<p class="no-bottom-margin">
+Aktualnie pracuję nad recenzją gry komputerowej <span class="game-title">Dune:
+Spice Wars</span>.  Ponadto przymierzam się do recenzji książki
+<span class="book-title">Sztuka i duch Diuny</span> oraz planszówki
+<span class="game-title">Diuna: Sekrety Rodu</span>.
+</p>
+</div>
+
+<h1 class="section-header">O stronie</h1>
+<div class="section-body">
+
+<ul class="standalone-review-list">
+  <li><a class="link" href="index/kanon.html">Co to jest kanon?</a>
+  <p class="abstract">
+  Kilka słów o moim podejściu do kwestii kanonu
+  w <span class="book-title">Diunie</span> i czemu nie znajdziecie tu nowych
+  powieści duetu Brian Herbert-Kevin J. Anderson.
+  </p>
+  </li>
+
+  <li><a class="link" href="index/historia-aktualizacji.html">Historia
+  aktualizacji</a>
+  <p class="abstract">
+  Lista zmian na stronie w odwróconym porządku chronologicznym.
+  </p>
+  </li>
+
+  <li><a class="link" href="index/licencja.html">Licencja</a>
+  <p class="abstract">
+  Treść licencji, na jakiej opublikowane są teksty znajdujące się na stronie.
+  </p>
+  </li>
+</ul>
+
+</div>
+
+</main>
+
+<footer>
+<div class="footer">
+Data ostatniej modyfikacji: 2024-02-01
+</div>
+</footer>
+
+</body>
+</html>

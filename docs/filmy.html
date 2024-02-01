@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jan Stolarek">
+  <link rel="stylesheet" type="text/css" href="./styl.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <link rel="license" href="./LICENCJA.md">
+  <title>Filmy | Fremen Zone</title>
+</head>
+
+<body>
+
+<!-- Przełączanie widoczności menu na małych ekranach -->
+<script src="./showSmallMenu.js"></script>
+
+<!-- Belka nawigacyjna -->
+<nav>
+  <!-- Duże ekrany -->
+  <div class="navbar">
+    <!-- Hamburger menu widoczne na małych ekranach. -->
+    <a class="navbar-hide-large" href="javascript:void(0);"
+       onclick="showSmallMenu()" title="Menu strony">
+      <div class="hamburger-menu-icon"></div></a>
+    <!-- Wpisy menu widoczne na dużych ekranach. -->
+    <a class="large-navbar-button navbar-hide-small" href="./index.html">Wstęp</a>
+    <a class="large-navbar-button navbar-hide-small" href="./ksiazki.html">Książki</a>
+    <a class="large-navbar-button navbar-hide-small navbar-active-button" href="./filmy.html">Filmy</a>
+    <a class="large-navbar-button navbar-hide-small" href="./gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small" href="./artykuly.html">Artykuły</a>
+    <a class="large-navbar-button navbar-hide-small" href="./pliki.html">Pliki</a>
+    <a class="large-navbar-button navbar-hide-small rss-icon" href="./feed.xml"></a>
+    <a class="large-navbar-button navbar-hide-small legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
+  </div>
+
+  <!-- Małe ekrany.  Wpisy wyświetlane/chowane z poziomu skryptu. -->
+  <div id="small-navbar-id" class="navbar navbar-hide navbar-hide-large">
+    <a class="small-navbar-button" href="./index.html">Wstęp</a>
+    <a class="small-navbar-button" href="./ksiazki.html">Książki</a>
+    <a class="small-navbar-button navbar-active-button" href="./filmy.html">Filmy</a>
+    <a class="small-navbar-button" href="./gry.html">Gry</a>
+    <a class="small-navbar-button" href="./artykuly.html">Artykuły</a>
+    <a class="small-navbar-button" href="./pliki.html">Pliki</a>
+    <a class="small-navbar-button legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
+    <a class="small-navbar-button rss-icon" href="./feed.xml"></a>
+  </div>
+</nav>
+
+<!-- Logo sekcji -->
+<header>
+  <img src="./img/filmy.png" class="logo" alt="">
+</header>
+
+<main>
+
+<h1 class="section-header">Filmy</h1>
+<div class="section-body">
+
+<p>
+Przez długie dekady <span class="book-title">Diuna</span> nie miała szczęścia do
+ekranizacji.  Książka kusiła filmowców już od wczesnych lat 70.  Pierwsze plany
+przeniesienia powieści na srebrny ekran w wykonaniu Arthura P. Jacobsa upadły
+wraz z jego śmiercią w 1973 roku.  Kolejne było słynne już nieudane podejście
+Alejandro Jodorowsky'ego.  Dopiero w 1984 roku Davidowi Lynchowi udało się
+doprowadzić ekranizację <span class="book-title">Diuny</span> do końca, ale
+rezultat trudno uznać za sukces.  Dwie serie telewizyjne z wczesnych lat
+dwutysięcznych również nie były wybitne.  Dopiero w 2021 roku ukazała się
+ekranizacja z prawdziwego zdarzenia, której fani nie muszą się wstydzić.
+</p>
+
+<p>
+Oprócz recenzji poniżej polecam również stronę <a class="link" rel="noreferrer"
+href="https://www.duneinfo.com/">Dune - Behind The Scenes</a>, na której
+zgromadzono mnóstwo trudnych do znalezienia gdziekolwiek indziej materiałów
+poświęconych ekranizacjom <span class="book-title">Diuny</span>.
+</p>
+
+<ul class="review-list">
+  <li><a class="link" href="filmy/diuna-2021.html">Diuna: Część Pierwsza</a>
+  (2021)
+  <p class="abstract">
+  Po ponad pół wieku od momentu pierwszego wydania
+  <span class="book-title">Diuna</span> w końcu doczekała się godnej
+  ekranizacji.  Film Denisa Villeneuve bardzo dobrze adaptuje materiał źródłowy
+  i jestem przekonany, że fani będą do tego filmu wracać przez kolejne dekady.
+  </p>
+  </li>
+</ul>
+
+</div>
+
+</main>
+
+<footer>
+<div class="footer">
+Data ostatniej modyfikacji: 2024-02-01
+</div>
+</footer>
+
+</body>
+</html>

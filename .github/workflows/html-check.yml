@@ -1,0 +1,21 @@
+name: Formatowanie HTML
+
+on:
+  push:
+
+jobs:
+  html-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install tidy
+      run: sudo apt-get install -y tidy
+    - name: HTML5Validator
+      uses: Cyb3r-Jak3/html5validator-action@master
+      with:
+        root: docs/
+        log_level: INFO
+        css: true
+        blacklist: legacy
+    - name: Check HTML with tidy
+      run: ./tidy-html-check.sh

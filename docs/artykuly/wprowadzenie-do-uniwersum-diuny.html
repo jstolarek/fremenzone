@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jan Stolarek">
+  <link rel="stylesheet" type="text/css" href="../styl.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.png">
+  <link rel="license" href="../LICENCJA.md">
+  <title>Artykuły | Fremen Zone</title>
+</head>
+
+<body>
+
+<!-- Przełączanie widoczności menu na małych ekranach -->
+<script src="../showSmallMenu.js"></script>
+
+<!-- Belka nawigacyjna -->
+<nav>
+  <!-- Duże ekrany -->
+  <div class="navbar">
+    <!-- Hamburger menu widoczne na małych ekranach. -->
+    <a class="navbar-hide-large" href="javascript:void(0);"
+       onclick="showSmallMenu()" title="Menu strony">
+      <div class="hamburger-menu-icon"></div></a>
+    <!-- Wpisy menu widoczne na dużych ekranach. -->
+    <a class="large-navbar-button navbar-hide-small" href="../index.html">Wstęp</a>
+    <a class="large-navbar-button navbar-hide-small" href="../ksiazki.html">Książki</a>
+    <a class="large-navbar-button navbar-hide-small" href="../filmy.html">Filmy</a>
+    <a class="large-navbar-button navbar-hide-small" href="../gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small navbar-active-button" href="../artykuly.html">Artykuły</a>
+    <a class="large-navbar-button navbar-hide-small" href="../pliki.html">Pliki</a>
+    <a class="large-navbar-button navbar-hide-small rss-icon" href="../feed.xml"></a>
+    <a class="large-navbar-button navbar-hide-small legacy-navbar-button" href="../legacy/index.htm">Stara strona</a>
+  </div>
+
+  <!-- Małe ekrany.  Wpisy wyświetlane/chowane z poziomu skryptu. -->
+  <div id="small-navbar-id" class="navbar navbar-hide navbar-hide-large">
+    <a class="small-navbar-button" href="../index.html">Wstęp</a>
+    <a class="small-navbar-button" href="../ksiazki.html">Książki</a>
+    <a class="small-navbar-button" href="../filmy.html">Filmy</a>
+    <a class="small-navbar-button" href="../gry.html">Gry</a>
+    <a class="small-navbar-button navbar-active-button" href="../artykuly.html">Artykuły</a>
+    <a class="small-navbar-button" href="../pliki.html">Pliki</a>
+    <a class="small-navbar-button legacy-navbar-button" href="../legacy/index.htm">Stara strona</a>
+    <a class="small-navbar-button rss-icon" href="../feed.xml"></a>
+  </div>
+</nav>
+
+<!-- Logo sekcji -->
+<header>
+  <img src="../img/artykuly.png" class="logo" alt="">
+</header>
+
+<main>
+
+<h1 class="section-header">Wprowadzenie do uniwersum Diuny</h1>
+<div class="section-body">
+
+<p>
+Kiedy pierwszy raz czytałem <span class="book-title">Diunę</span>, kilka
+początkowych rozdziałów stanowiło spore wyzwanie.  Bene Gesserit, gom dżabbar,
+Kwisatz Haderach, mentaci, KHOAM, Sardaukarzy &#8212; co chwila przerywałem
+czytanie, żeby zajrzeć do słownika terminologii Imperium zamieszczonego na końcu
+tomu i sprawdzić kolejny enigmatyczny zwrot, próbując nadać jakiś większy sens
+temu co czytam.  <span class="book-title">Diuna</span> posiada niezwykle
+rozbudowany świat, w chwili publikacji ustępujący rozmachem tylko
+<span class="book-title">Władcy Pierścieni</span>.  Stawianie w nim pierwszych
+kroków jest trudne i wymaga albo determinacji w studiowaniu wspomnianego
+słownika, albo zaakceptowania, że część subtelności fabularnych pozostanie
+chwilowo niezrozumiała.
+</p>
+
+<p>
+Niniejszy tekst napisałem specjalnie z myślą o osobach, które nie czytały
+powieści.  Jeśli znasz <span class="book-title">Diunę</span> jedynie ze
+słyszenia, albo poznawałeś jej świat przez gry bądź filmy, ten artykuł jest dla
+Ciebie.  W przeciwieństwie do wielu innych artykułów na Fremen Zone tutaj nie
+będzie spoilerów.  Tekst z założenia jest dosyć ogólny i nie wchodzi w detale
+fabularne powieści.  Celowo pomijam również większość nazw własnych, takich jak
+imiona postaci czy nazwy rodów i planet &#8212; poznacie je, czytając powieść, a
+do ogólnego wprowadzenia nie są potrzebne.
+</p>
+
+<h2 class="subsection-header">Polityka Diuny</h2>
+
+<p>
+<span class="book-title">Diuna</span> rozgrywa się w przyszłości odległej o
+dziesiątki tysięcy lat.  Ludzkość żyje zjednoczona w galaktycznym Imperium
+obejmującym cały znany wszechświat.  Imperium ma strukturę feudalną i każdemu
+obywatelowi z racji urodzenia przysługuje miejsce w systemie klasowym zwanym
+faufreluches.  Najwyższą władzę piastuje Padyszach Imperator, tytułujący się
+również Imperatorem Znanego Wszechświata.  Jednym z gwarantów władzy Imperatora
+są Sardaukarzy &#8212; elitarne oddziały wojskowe, niezrównane w walce i budzące
+powszechny postrach.  Sama groźba ich użycia stanowi skuteczny straszak
+powstrzymujący przed jawnym atakiem na władzę Imperatora.
+</p>
+
+<p>
+Niżej w hierarchii znajdują się Wielkie Rody.  Są to klany, na których czele
+stoi wielopokoleniowa rodzina, z dziedzicznym prawem do władzy i wszelkimi
+tytułami szlacheckimi z tym związanymi.  My nazwalibyśmy taką rodzinę dynastią,
+aczkolwiek w powieści to słowo nie jest używane.  Wielkie Rody są wasalami
+Imperatora, którym ten nadaje lenna planetarne.  Czasami lennem jest pojedyncza
+planeta, czasami jest to kilka planet w ramach jednego systemu planetarnego.
+Istnieją również Niskie Rody.  Ich władza jest mniejsza niż ta posiadana przez
+Wielkie Rody.  Niski Rod często służy jakiemuś Wysokiemu Rodowi.
+</p>
+
+<p>
+Rody zrzeszone są w Landsraadzie, forum debaty i dyskusji politycznych na
+kształt ziemskiego ONZ.  Landsraad stanowi przeciwwagę dla władzy Imperatora, z
+którą ten musi się liczyć.  Wprawdzie żaden ród w pojedynkę nie mógłby
+przeciwstawić się Imperatorowi, ale z kolei Imperator nie oparłby się połączonym
+siłom wszystkich rodów.
+</p>
+
+<p>
+Kolejną instytucją w ramach Imperium jest KHOAM (skrót od Konsorcjum Honette
+Ober Advancer Mercantiles).  Celem KHOAMu jest nadzór nad handlem i ekonomią
+Imperium.  W praktyce jest to kolejna arena rozgrywek politycznych między
+przedstawicielami frakcji politycznych Imperium.
+</p>
+
+<p>
+Na zakończenie tej sekcji pragnę zaznaczyć, że choć świat
+<span class="book-title">Diuny</span> jest bardzo rozbudowany, to zarówno
+Landsraad jak i KHOAM stanowią jedynie tło dla fabuły.  Powieść przedstawia
+jedynie ogólną rolę i wpływy tych instytucji, ale nie precyzuje szczegółów ich
+działania.
+</p>
+
+<h2 class="subsection-header">Wartości</h2>
+
+<p>
+Fabuła wszystkich części <span class="book-title">Diuny</span> kręci się wokół
+intryg politycznych, których motorem napędowym są konflikty ekonomiczne i
+religijne.  Największą wartość materialną w Imperium stanowi <em>przyprawa</em>,
+nazywana również <em>melanżem</em>.  Jest to substancja naturalna o niezwykłych
+właściwościach: wydłuża życie i poszerza świadomość, będąc jednocześnie silnie
+uzależniającym narkotykiem.  Przyprawa występuje tylko w jednym miejscu we
+Wszechświecie, na pustynnej planecie Arrakis, zwanej Diuną.  To właśnie konflikt
+o przyprawę staje się zalążkiem fabuły całego cyklu powieści.
+</p>
+
+<p>
+Wiele postaci z uniwersum <span class="book-title">Diuny</span> przedłożyłoby
+jednak wartości duchowe nad te ekonomiczne.  Wynika to zarówno z powszechnego
+kultywowania pozytywnych cech charakteru takich jak odwaga czy lojalność, ale
+także z istotnej roli wiary.  Najważniejszym źródłem prawd religijnych jest
+Biblia Protestancko-Katolicka, zwana w skrócie Biblią P-K<a class="local-link
+footnote-link" href="#biblia-pk" id="biblia-pk-ref"></a>.  Jest to księga będąca
+syntezą wielu wyznań znanych ze Starej Ziemi.  Dla wielu postaci stanowi ona
+kompas moralny oraz podporę duchową.  Warto też zaznaczyć, że o ile duchowość w
+świecie <span class="book-title">Diuny</span> jest istotna, o tyle zorganizowana
+religia już niekoniecznie.
+</p>
+
+<p>
+W Imperium panuje wymuszony pokój.  Istnieją sformalizowane zasady prowadzenia
+ograniczonej wojny pomiędzy skonfliktowanymi Rodami.  Celem tych zasad jest
+ograniczenie postronnych ofiar.  Ponadto, za sprawą Wielkiej Konwencji zakazane
+jest użycie broni jądrowej.  Wprawdzie każdy Wielki Ród ją posiada, ale jej
+użycie byłoby równoważne z samobójstwem, gdyż wszystkie siły w Imperium
+zwróciłyby się przeciwko atakującym.
+</p>
+
+<p>
+Istotny wpływ na kształt uniwersum ma również to, czego w nim nie ma:
+komputerów.  Kluczowym wydarzeniem historycznym, które wpłynęło na ten stan
+rzeczy jest Dżihad Butleriański<a class="local-link footnote-link"
+href="#dzihad" id="dzihad-ref"></a>, zwany również Wielką Rewoltą.  Była to
+trwająca blisko stulecie wojna przeciwko myślącym maszynom, zakończona
+zwycięstwem ludzi.  W jej wyniku zabroniono konstruowania myślących maszyn, co
+zawarte zostało w najważniejszym przykazaniu Biblii P-K: "Nie będziesz czynił
+machin na obraz i podobieństwo umysłu ludzkiego".
+</p>
+
+<h2 class="footnotes-header">Wielkie Szkoły</h2>
+
+<p>
+Zniszczenie myślących maszyn zrodziło problem: jak wykonywać czynności do tej
+pory realizowane przez komputery?  Jako rozwiązane tego problemu narodziły się
+Wielkie Szkoły, stawiające sobie za cel doskonalenie ludzkiego ciała i umysłu na
+przeróżne sposoby.
+</p>
+
+<p>
+Z punktu widzenia powieści najważniejszą ze szkół są Bene Gesserit, zwane też
+zgromadzeniem żeńskim.  Jest to żeński zakon religijny, którego adeptki
+osiągnęły doskonałą kontrolę nad wieloma aspektami swojego ciała.  Potrafią
+perfekcyjnie kontrolować mięśnie, świadomie sterować owulacją oraz płcią
+potomstwa, a także używać Głosu: techniki modulowania tonu swojej wypowiedzi
+tak, by zmusić słuchającego do realizacji wydanych poleceń.  Istnieją Bene
+Gesserit zwane Prawdomówczyniami, potrafiące odróżnić czy dana osoba mówi
+prawdę, czy kłamie, a groźba przesłuchania przed imperialną Prawdomówczynią bywa
+straszniejsza niż obawa przed Sardaukarami.  Bene Gesserit stojące najwyżej w
+hierarchii zakonu zwane są Matkami Wielebnymi.  Posiadają one pamięć genetyczną,
+pozwalającą słyszeć głosy swoich żeńskich przodkiń.  Oficjalnie Bene Gesserit
+istnieją po to, by służyć.  Są obecne zarówno w służbie Impeatora jak i na
+dworach Wielkich Rodów.  Pod tą fasadą kryje się jednak znacznie więcej.  Bene
+Gesserit realizują swoje własne cele, a ich obecność na wszystkich dworach
+ułatwia im pociąganie za sznurki.  Bene Gesserit od stuleci prowadzą program
+eugeniczny, którego celem jest stworzenie Kwisatz Haderach, męskiego Bene
+Gesserit, którego pamięć genetyczna i zdolność przewidywania przyszłości będzie
+przewyższać zdolności Matek Wielebnych.
+</p>
+
+<p>
+Tak jak Bene Gesserit wytrenowały do perfekcji ciało, tak mentaci trenują umysł.
+W świecie <span class="book-title">Diuny</span> mentaci pełnią rolę ludzkich
+komputerów.  Potrafią dokonywać w ułamku sekundy skomplikowanych obliczeń oraz
+przeprowadzać rozbudowane analizy.  Każdy Wielki Ród posiada swojego nadwornego
+mentata.  Na kartach powieści spotkamy wielu mentatów, a część z nich będzie
+grała pierwszoplanowe role.
+</p>
+
+<p>
+Imperium składa się z planet rozrzuconych po całym wszechświecie.  Tym, co spaja
+Imperium fizycznie, jest Gildia Kosmiczna, posiadająca monopol na podróże
+międzygwiezdne.  Niech o ważności Gildii świadczy fakt, że moment jej utworzenia
+uznaje się za początek kalendarza imperialnego.  Na wyposażeniu Gildii znajdują
+się gigantyczne liniowce &#8212; statki kosmiczne mogące pomieścić w swych
+ładowniach inne, mniejsze statki i dzięki zaginaniu przestrzeni
+przetransportować je do dowolnego miejsca we Wszechświecie.  Każdy liniowiec
+kierowany jest przez Nawigatora posiadającego ograniczony zmysł jasnowidzenia,
+umożliwiający poprowadzenie statku nadprzestrzennego w bezpieczny sposób.
+Nawigatorzy Gildii uzyskują zdolność jasnowidzenia dzięki spożyciu dużych ilości
+przyprawy.  Bez niej podróże międzygwiezdne stałyby się niemożliwe, prowadząc do
+rozpadu Imperium.  To czyni przyprawę najważniejszą substancją we Wszechświecie.
+Wspomniany wcześniej wymuszony pokój jest egzekwowany przez Gildię.  Ostatecznie
+tylko ona może transportować wojska na miejsce konfliktu.  I oczywiście zrobi to
+za odpowiednią opłatą, ale jednocześnie nie dopuści, by ewentualny konflikt
+zbrojny rozlał się na całe Imperium.
+</p>
+
+<p>
+Na koniec trzeba wspomnieć o dwóch mniejszych, ale istotnych siłach: Ix i Bene
+Tleilax.  Nie zaliczają się do Wielkich Szkół, lecz są dostawcami zaawansowanej
+technologii delikatnie balansującej na granicy tego, na co zezwala Biblia P-K.
+Ix dostarcza urządzeń technologicznych.  Bene Tleilax specjalizuje się w
+bioinżynierii.  Przedstawiciele obu tych potęg często są pogardzani za plecami,
+ale dostarczane przez nich wynalazki są na tyle potrzebne, że rzadko kiedy ktoś
+otwarcie manifestuje swoją niechęć.
+</p>
+
+<h2 class="subsection-header">Podsumowanie</h2>
+
+<p>
+Mam nadzieję, że powyższe wprowadzenie pomoże w stawianiu pierwszych kroków w
+uniwersum <span class="book-title">Diuny</span>.  Starałem się całkowicie
+uniknąć wchodzenia w fabułę powieści &#8212; wiedza z tego tekstu powinna pomóc
+w komfortowym rozpoczęciu przygody z pierwszą książką.  Nie chcąc ryzykować
+spoilerów celowo pominąłem również wszelkie kwestie związane z Fremenami. W
+kilku miejscach pozwoliłem sobie na drobne i, mam nadzieję, nieszkodliwe
+nieścisłości mające na celu uproszczenie wywodu.  Bo kiedy mówimy, że Imperium
+obejmuje cały Znany Wszechświat, to co tak naprawdę obejmuje?  Może Imperium w
+ogóle nie wychodzi poza naszą galaktykę?  Te pytania będziecie już rozważać
+samodzielnie, czytając książki.
+</p>
+
+<h2 class="footnotes-header">Przypisy</h2>
+
+<ol class="footnotes-list">
+  <li id="biblia-pk">W angielskim oryginale <em>Orange Catholic Bible</em>.
+  Tłumaczenie na polski wynika z założenia, że słowo <em>Orange</em> odnosi się
+  do protestanckiej organizacji Orange Order.
+   <a class="local-link back-ref" href="#biblia-pk-ref"></a>
+  </li>
+
+  <li id="dzihad">Angielskie <em>Butlerian Jihad</em> w polskich tłumaczeniach
+  nazywane było Dżihadem Butleriańskim, Butleryjskim, albo Butlerowskim.  W
+  starych tłumaczeniach był nawet Dżihad Butlerjańska (sic!), będący efektem
+  pomylenia rodzaju słowa "dżihad".
+   <a class="local-link back-ref" href="#dzihad-ref"></a>
+  </li>
+</ol>
+
+
+<div class="go-back-link">
+  <a class="link" href="../artykuly.html">Wstecz</a>
+</div>
+
+</div>
+
+</main>
+
+<footer>
+<div class="footer">
+Data ostatniej modyfikacji: 2024-02-01
+</div>
+</footer>
+
+</body>
+</html>

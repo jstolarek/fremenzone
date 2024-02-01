@@ -1,0 +1,143 @@
+In the game of DUNE, you play of the role of Paul Atreides, son of Duke Leto Atreides and possible savior of the planet Arrakis (also known as Dune). In this game, your job is to keep a consistent flow of spice, Dune's major export, to Emperor Shaddam IV. To do so, you must make contact with the natives of Arrakis, called the Fremen, and defeat the evil Harkonnens whose only wish is to kill the Atreides family and have Arrakis for themselves.
+
+You begin the game in the Atreides palace. With you is Duke Leto, your father. Talk to Leto and he'll tell you about the three Fremen sietchs (caves where Fremen live) that are around the palace. He will also mention that Gurney, the Atreides's military trainer, is missing. He asks you to visit the sietchs and find Gurney.
+
+Go south and you'll see your mother Jessica. Talk to her and she'll say that Gurney is at the sietch named Carthag-Tuek. Take an orni, which is located outside the palace (go south three times) and fly to Carthag-Tuek (it is the sietch at the bottom).
+
+When you arrive at Carthag-Tuek, you'll find Gurney and a Fremen chief. Talk to Gurney and he'll say some stuff about the Fremen. Then talk to the Fremen chief and ask him to have his troop (a group of Fremen is called a troop) work for you. He'll agree to do so. Then gives orders to the troop and choose its occupation. For now they should specialize in spice. A little picture should appear on your map of Dune showing a guy digging at Carthag-Tuek. After giving the orders, ask Gurney to come along and visit the other two sietchs. The chief at Carthag-Harg will agree to work with you and dig for spice. The chief at Carthag-Timin will refuse to work for you. Don't worry; you'll get back to him later. For now, return to the palace with Gurney.
+
+When you get back to the palace, go talk to Leto so he'll know about the two troops you enlisted. Leto will mention stillsuits and his desire for you to find some. Talk to Gurney and he'll tell you that the chief at Carthag-Tuek may be able to help. Go south and you'll see Jessica and Duncan, the spice manager for the Atreides. Talk to both of them; Jessica should tell you some stuff about spice and what it does to people. Then go to your orni and fly to Carthag-Tuek.
+
+The chief at Carthag-Tuek will tell you to fly east. Return to your orni and plot on its map to fly east. Make sure that the message above the map says "Desert Eastwards." Fly until Gurney spots a sietch. When he does, you can skip to that location.
+
+The new sietch is named Tuono-Tabr. Talk to the Fremen chief. He'll provide you with stillsuits and the location of two more sietchs. Then ask the chief to specialize in spice. He will mention that there is a spice harvester in the area. Click on Modify Equipment and click on the picture of the harvester. This will move it from unused equipment into the Fremen's possession. (Note: The orni is yours. Do not give it to the Fremen or you'll be hitchhiking home.) If you've done this correctly, a picture of a working harvester should appear on your Dune map.
+
+Go visit the other two new sietchs. At Carthag-Tabr, when you ask the chief to spice harvest, he will say the area must be prospected. Talk to Gurney, who will say that the prospectors are at an "already prospected sietch." Fly to Carthag-Timin (the sietch where you were turned down).
+
+At Carthag-Timin, the chief will reveal his identity as a prospector and will agree to work for you. He will give you a map showing spice density. Tell the prospectors to specialize in spice and move them to Carthag-Tabr. A dotted red line will appear running from Carthag-Timin to Carthag-Tabr. Then click on Tuono-Tuek (the sietch you haven't visited yet). Another line will appear. You can order the prospectors to go to three sietchs at a time.
+
+Fly to Tuono-Tuek and ask the chief to spice harvest. He will agree but must wait for the prospectors to arrive. Return to the palace. At the palace, Gurney will note that the stillsuits have arrived. Go talk to Leto, who will say to take Jessica and search the palace. Go north into your room where Jessica will be waiting. Ask her to come with you. From your room, go south four times. Jessica will find a door to the west. Go west and then north. Congratulations! You have found the communications room. Talk to Jessica and there will be a long scene with Leto congratulating you on finding the sietchs and such. When the scene is over, ask Jessica to stay. Go talk to Duncan. He will tell you to go to Tuono-Tabr to look for harvesters.
+
+The chief at Tuono-Tabr will tell you to fly northeast over the crater. Go to your orni and plot a line running northeast from Tuono-Tabr that runs over the crater. Make sure that "Desert Northeastwards" is displayed. Fly, and Gurney will eventually spot the sietch. If nothing happens and you fly past the crater, go back to your starting point and try again. This may take a couple of tries to get right.
+
+Gurney will spot Tuono-Harg, which has no Fremen. But there are two harvesters here. Fly to Carthag-Tabr and Tuono-Tuek and tell the troops to move to Tuono-Harg. While at Tuono-Tuek, tell the prospector (who should be there by now) to move to Tuono-Harg when he is done. After telling both Fremen troops to move, return to Tuono-Harg and await their arrival. This is a good time to get familiar with the map and such. When they arrive, give them the harvesters (just like you did at Tuono-Tabr) and move them back to Carthag-Tabr and Tuono-Tuek where they'll begin work with the harvesters. Return to the palace.
+
+When you arrive, go to the overlook, which is located east of where you usually find Leto. Talk to Leto. Then go to the comm room and view the new message from the Emperor. He'll be wanting spice soon. Now, go talk to Duncan and he'll mention a rich spice area. Fly to Tuono-Tabr.
+
+The chief at Tuono-Tabr will tell you to fly southeast. Do so and wait for Gurney to spot a sietch.
+
+At Tuono-Timin, the new sietch, you will meet Harah. She'll give you the location of some more sietchs. Note that there is an unused harvester here. Ask Harah to come along and go visit the new sietchs.
+
+At the sietch named Habbanya-Timin, the chief will tell you that the area needs prospecting. Move those troops to Tuono-Timin to retrieve the unused harvester.
+
+Habbanya-Tuek's Fremen will work for you but need prospecting. The chief at Habbanya-Tabr will refuse to work for you. You'll have to come back later. Return to the palace.
+
+At the palace, go to your room and talk to Jessica. She will ask you to go into the desert alone. Tell Harah and Gurney to stay. Then save your game (I once died out in the desert). Go south of the palace (on foot) 15 times and wait for a vision of Leto to appear telling you that a message has arrived. Return to the palace and go talk to Leto. He and Jessica will say some stuff. Talk to Jessica when this scene is done and she will tell you that you can now contact Fremen. Go to the comm room and view the message. Uh-oh, the Emperor wants some spice. After viewing the message, go talk to Duncan. When he asks whether you want to accept, argue, or refuse the Emperor's offer, accept it. Then ask Duncan to come with you and go back to the comm room. There will be a little scene showing the shipping of the spice. Then wait a few seconds for a reply from the Emperor. You will have to do this procedure again and again. Whenever you get a vision from someone saying a message has arrived, go to the palace and, if it is a spice request from the Emperor, go through the procedure again. I will no longer mention spice requests. If you ever don't have enough spice for the Emperor, you're in big trouble. I would recommend starting over.
+
+Anyway, after shipping the spice, you'll learn from either Leto or Jessica that Gurney is missing. Ask Jessica to come with you and go south of your room two times to the hallway (with flags hanging from the ceiling). Jessica will find a door to the east. Go east and there is Gurney, lying on the floor. Talk to him and then ask Jessica to stay. Go tell Leto about Gurney, and he'll tell you to go find Thufir (the military expert) in the comm room.
+
+Go to the comm room, talk to Thufir, and ask him to come with you. Return to the room where Gurney is and talk to Thufir again. He'll say there is a trap behind you and he'll undo the trap. Go south with Thufir into the armory. Talk to Thufir, who will mention using the Fremen to defeat the Harkonnens. He will also mention finding the Fremen leader. Go north and talk to Gurney, who has recovered. Take Gurney into the armory and talk to him. He'll mention training the Fremen. Leave Thufir and Gurney and go find Harah. Though she doesn't know about a leader, ask her to come with you.
+
+This is a good time to try out your new powers. Go to the Dune map and click on the spice miner at Carthag-Harg or Carthag-Tuek. His picture will appear and you can give him orders; don't give any orders yet: this just shows you what you can do). As you gain experience, you will be able to contact Fremen at greater distances.
+
+Next, find the prospectors and fly to where they are. Tell them to go to Habbanya-Timin, Habbanya-Tuek, and Tuono-Timin. Then fly to Carthag-Tabr.
+
+Talk to the chief at Carthag-Tabr and he'll mention the Fremen leader named Stilgar. Talk to Harah, who will mark on your map where to go next to find Stilgar. Fly to this sietch, named Sihaya-Clam, located west of the Atreides palace.
+
+At Sihaya-Clam, talk to Harah. She will tell you to fly northwest. Harah will spot a sietch named Ergsun-Timin.
+
+At Ergsun-Timin, talk to Stilgar. Ask him to come with you. Then talk to the Fremen chief and tell him to specialize in Army. Then modify their equipment and give them the knives that are located at Ergsun-Timin. Fly to the 4 new sietchs.
+
+At Ergsun-Clam, tell them to be spice harvesters. Note their knives.
+
+At Ergsun-Tabr, there is a free orni! Leave it for now. Tell the chief to be spice harvesters.
+
+Ergsun-Tsymyn is empty, but there are knives there. Tell them to be spice harvesters at Ergsun-Tuek. Note that all three of these sietchs that will be harvesting spice need to be prospected. Return to the palace.
+
+Bring Stilgar to meet Leto at the palace. There will be a little scene. After the scene, go to the armory and get Gurney (leave Harah). Go to Ergsun-Timin.
+
+At Ergun-Timin, tell Gurney to stay and help train the Fremen. Note: around this time, you will start getting messages. The prospectors will tell you that they have done what you asked them to do. Duncan will tell you that the Emperor has sent a spice request (be prompt!). When Leto tells you that something has happened at the palace, go there immediately.
+
+At the palace, go to the comm room and view the messages from the Baron and Emperor. First, take care of the spice request with Duncan; then, go talk to Leto and Jessica. Leto wants revenge against the Baron; Jessica will ask you to talk to Thufir. Go to the comm room and talk to Thufir. There will be a message from Feyd; it is nothing to worry about. After talking to Thufir, go talk to Leto again. Then go talk to Duncan in the comm room. He will mention worms, ornis, and Smugglers. Go find Harah; she'll mention "the village in the fish's mouth." Take Harah. Go to your orni and look on its map. There's a fish just west of the palace. Plot for the orni to fly to the general area around its mouth. The display should just say "Desert." Wait for Stilgar to spot the village.
+
+At the village, you can trade spice for harvesters, ornis, and weapons. Though it is tempting to buy a bunch of stuff, I recommend picking up one orni for as cheap as possible (I was able to argue the smuggler down to 1340 kg of spice). Then fly to where the prospectors are. Move them to Ergsun-Tabr to pick up the orni you found. Then contact the troops at Tuono-Tabr (or wherever the nearest harvester is operating) and change their occupation to "Go and search for equipment." They will head to Oxtyn-Pyons to pick up the orni you bought.
+
+Fly to Habbanya-Tabr and rally them. Specialize them in Army and move them to Ergsun-Clam to pick up the knives. Move the troops at Habbanya-Tuek to Habbanya-Tabr to pick up the harvester.
+
+Around this time, Harah may start saying that she wants to go back home to Tuono-Timin. Take her there; you no longer need her since you have Stilgar. When you've dumped Harah, talk to Stilgar. He'll tell you of a new sietch. Go there!
+
+The new sietch is Oxytn-Tabr. There is an orni and harvester there. Talk to Chani and ask her to come with you. Go outside of the sietch and into the desert five times (in any direction). It must be evening; if not, click on the "Wait for evening" bar. Then talk to Chani. There should be a kissing scene and now Chani will follow you everywhere.
+
+You may get a message around now that the Harkonnen are attacking Carthag-Tabr or other sietchs. They are lost for now. Your army is no where near ready to take on Harkonnens. You may also get a message that a worm has swallowed a harvester somewhere. There isn't anything you can do about it, as you need to save your spice for the Emperor and not spend it on ornis.
+
+If the prospectors have arrived at Ergsun-Tabr, go there and give them the orni. This will allow them to move much faster. Then have them begin prospecting all unprospected land. I will no longer mention the prospectors, as you should keep moving them to lands that need prospecting.
+
+Visit the sietchs around Oxytn-Tabr. If a sietch has over 2000 Fremen, specialize them in Army and send them to where Gurney is for training. If there are some unclaimed knives along the way in sietchs, have them pick those up first before going to Gurney. If a sietch has less then 2000 Fremen, keep them mining for spice. You should start finding a few harvesters here and there.
+
+Suddenly, you will get an urgent message from Jessica. Return to the palace and talk to her. You will learn that Leto is dead. Go talk to Thufir. He will mention another way of transport other than ornis. Then go to an empty room (such as the one south of the comm room) and talk to Stilgar. He will mention riding worms. Go into the desert and click on CALL A WORM. You can now travel by worms. Even better, you can fly an orni to a sietch, give it to the Fremen there to go along with their harvester, and then ride a worm. Note that you must be in the desert to ride a worm; you cannot call a worm at the entrance to a sietch or the palace.
+
+Go back into the palace and tell Thufir about riding worms. Then go get Jessica and take her to the room where you found Gurney on the floor. Jessica will find a door to the east. Go east and you will be in the greenhouse. Leave Jessica. Go get Chani and talk to Chani in the greenhouse. She will mention her father. Follow her directions to find him.
+
+Chani's father, Kynes, lives at Sihaya-Tuek. Talk to him and he will tell you about his bulbs that will bring vegetation to Arrakis. If you go west of Kynes' bulb room, you will find a pond. Stilgar will tell you that this is the Water of Life and will offer you a drink. Do not drink it until Jessica tells you to do so, which will be later in the game.
+
+After Stilgar mentions the Water of Life, return to the palace and talk to Jessica. She will mention the Water of Life, but she will say that she will research it.
+
+Okay, we have now reached a valley in the game. I am going to divide the game up into 4 parts: Spice, Agriculture, Army, and Other. It is best if you read all of these before continuing in the game, because they are not step-by-step instructions.
+
+SPICE
+
+Keep the harvesters and ornis moving. If an area is brown on your spice map, move the harvester. As you uncover more sietchs and such, there is no need to keep the harvesters in places from which you have sucked the spice.
+
+Once you have pretty much depleted the Fremen desert of spice (most of it should be pretty brown), move your spice harvesters to where your troops are capturing Harkonnen fortresses (see ARMY). There is a lot of rich spice up there and you need to harvest as much as possible, as the Emperor wants more spice each calling.
+
+Keep the prospectors following your army. They need to prospect all the land you win from the Harkonnens before it can be harvested.
+
+AGRICULTURE
+
+I don't like to mess with the bulbs and stuff until my army is set. To be honest, the bulbs seem like a waste of time. You need to plant a few, but they do little more than inspire the Fremen.
+
+Note that when you want to begin with the bulbs, you need to send some Fremen to Sihaya-Tuek to help Kynes in making the bulbs. Meanwhile, have some other Fremen who you have designated as specializing in Agriculture go out and build wind-traps. Wind-traps collect water in sietchs that have no water. You can see how much water a sietch has, and whether it needs a wind-trap, by clicking on the sietch from your Dune map.
+
+Note that planting bulbs destroys any remaining spice in the area. Don't plant somewhere that still has some significant spice.
+
+When bulb production is complete, modify the Fremen's equipment at Sihaya-Tuek and give them a bulb. In order to plant, a Fremen must go to Sihaya-Tuek and pick up a bulb. Then the Fremen will start planting and greenery will appear.
+
+If a Fremen is not doing anything (he's just standing there), the problem is: (1) A wind-trap needs to be built; (2) He has no bulbs; or (3) his job is done.
+
+ARMY
+
+Your army is the most important aspect of DUNE. Only by building a strong army can you defeat the Harkonnens and win the game. To start with, get seven troops of Fremen each with around 2,000 men. Move them to where Gurney is and wait for them to be at Expert level (this takes 7-8 days).
+
+For your first attack, arm all of your troops with knives. You may have to send the troop to another sietch to retrieve the knives. A sietch south of Oxytn-Tabr has both knives and lasers.
+
+Once your seven troops are Experts and armed, save your game. Save your game prior to making any attack on a fortress. Then send one troop out to Espionage (change his occupation to Espionage). When he finds a fortress, wait for him to report how many Harkonnen troops are there. A picture of the number of Harkonnens will appear on the Dune map when he finds this out. Then move all of your troops to the fortress to attack. When they get there, all seven troops will attack.
+
+Contact one of the troops and see what he says. If he says that they have "horrible weapons" and such, you're gonna lose. If he says that the Harkonnens are going to be routed, get on a worm and ride to the fortress. If you get there and the battle is going on, click on the "Fight for a whole day" bar and a picture of the captured fortress should appear. Note that if you ride to a fortress where your troops are losing, you will be killed. Also, note that you cannot fly an orni into battle. You will get shot down.
+
+When the fortress has been captured, go inside and see if there are any captured Harkonnens or formerly-captive Fremen. If you find Fremen, you can specialize them in whatever you wish. I like to designate a couple of army troops (around 2000) to go back to train with Gurney. You can also make them spice miners or Agriculture guys. If there is a Harkonnen captain in the fortress, have someone handcuff him (this is an option when you talk to a Fremen in the presence of the Harkonnen) and then talk to the captain. He will give you the location of another Harkonnen fortress.
+
+Most importantly, when capturing a fortress, look for new weapons or spice machines. As you go along, you will find more and better weapons with which to arm your seven army troops. If there are harvesters or ornis, you can have spice miners who do not have harvesters come to the fortress and pick up the harvester.
+
+After capturing a fortress, your army will spend some time turning it into a sietch. During this time you can't do anything with them. That is why I like to have a couple of other Expert army troops who can go out and Espionage. If and when they find a fortress, I then move them back to the nearest sietch and tell them to espionage again. This can save a lot of time. At one point, I had five Harkonnen fortresses on my screen ready to be attacked by my elite seven troops.
+
+This is pretty much what you do for the rest of the game. Save your game, send all your guys to attack a fortress, get the loot, and wait for them to be ready to attack again. As far as I can tell, as long as you get that message about routing the Harkonnens, you will always win and not lose any Fremen in the process; thus, you do not need to keep training more Fremen to make up for losses.
+
+Once all your troops have knives, lasers, and weirding modules, you're pretty much unbeatable. The atomics just add to your men's strength, but are necessary for later in the game.
+
+If your espionage finds a fortress with just one Harkonnen, three well-armed troops can handle him. If there are two or three Harkonnens, I recommend sending 6-7 well-armed troops.
+
+A note on espionage: you may get to a point where you cannot order someone to espionage. If this happens, move them to another sietch and try again. Do this until the Espionage option becomes available.
+
+OTHER
+
+Some stuff will happen in the game while you're leading your troops. First of all, you may get a message that your troops are sick. Take Chani to wherever the sick men are and leave her there. She will heal them in a couple of days. Eventually, Chani disappears and you will get a message from Feyd at the palace that he has her. Although the Fremen whine about missing her, do not be too anxious to save her. She is being held at one of the Harkonnen fortresses that used to be a sietch (one of the sietchs they attacked early in the game). These are well-armed places and your men must have at least lasers (and a couple of them should have weirding modules) to recapture the fortress. In the case of the Water of Life, talk to Jessica every time you go to the palace to send spice. She will eventually tell you that it is time to drink the Water. Go to a sietch that has water and drink it. The screen will black out and slowly Stilgar's face will appear. Return to the palace, talk to Jessica, and she will verify that you can now contact Fremen all over the planet (a big convenience). You don't need to talk to Jessica (and Thufir for that matter) anymore until the Final Assault.
+
+If you get a report of sabotage, you are supposed to send an army troop to find the saboteurs. Unless you have built up excess army and can spare the men, I never found this to be a major priority.
+
+FINAL ASSAULT
+
+Okay, you have captured all of the Harkonnen fortresses (you should control around 44% of the planet to the Harkonnen's 2%). Go to the palace and talk to Thufir. Ask him to come along and go to Arrakeen-Tuek.
+
+At Arrakeen-Tuek, Thufir will say to get everyone and bring them there (Gurney, Jessica, Stilgar, Chani, and Gurney). Do so. Then Thufir will say that you need 10,000 Fremen, armed with atomics, in the three sietchs around the Harkonnen palace. These three sietchs are Arrakeen-Timin, Arrakeen-Tabr, and Arrakeen-Tuek. Move the troops to these sietchs (add up their numbers to make sure you have at least 10,000). When they are in place, talk to Stilgar and tell him to attack. You will be told when the shield around the Harkonnen palace is down and they have surrendered. When you get that message, go to the palace and enjoy your victory!
+
+Long Live Paul Muad'dib!!!

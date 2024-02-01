@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jan Stolarek">
+  <link rel="stylesheet" type="text/css" href="./styl.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <link rel="license" href="./LICENCJA.md">
+  <title>Gry | Fremen Zone</title>
+</head>
+
+<body>
+
+<!-- Przełączanie widoczności menu na małych ekranach -->
+<script src="./showSmallMenu.js"></script>
+
+<!-- Belka nawigacyjna -->
+<nav>
+  <!-- Duże ekrany -->
+  <div class="navbar">
+    <!-- Hamburger menu widoczne na małych ekranach. -->
+    <a class="navbar-hide-large" href="javascript:void(0);"
+       onclick="showSmallMenu()" title="Menu strony">
+      <div class="hamburger-menu-icon"></div></a>
+    <!-- Wpisy menu widoczne na dużych ekranach. -->
+    <a class="large-navbar-button navbar-hide-small" href="./index.html">Wstęp</a>
+    <a class="large-navbar-button navbar-hide-small" href="./ksiazki.html">Książki</a>
+    <a class="large-navbar-button navbar-hide-small" href="./filmy.html">Filmy</a>
+    <a class="large-navbar-button navbar-hide-small navbar-active-button" href="./gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small" href="./artykuly.html">Artykuły</a>
+    <a class="large-navbar-button navbar-hide-small" href="./pliki.html">Pliki</a>
+    <a class="large-navbar-button navbar-hide-small rss-icon" href="./feed.xml"></a>
+    <a class="large-navbar-button navbar-hide-small legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
+  </div>
+
+  <!-- Małe ekrany.  Wpisy wyświetlane/chowane z poziomu skryptu. -->
+  <div id="small-navbar-id" class="navbar navbar-hide navbar-hide-large">
+    <a class="small-navbar-button" href="./index.html">Wstęp</a>
+    <a class="small-navbar-button" href="./ksiazki.html">Książki</a>
+    <a class="small-navbar-button" href="./filmy.html">Filmy</a>
+    <a class="small-navbar-button navbar-active-button" href="./gry.html">Gry</a>
+    <a class="small-navbar-button" href="./artykuly.html">Artykuły</a>
+    <a class="small-navbar-button" href="./pliki.html">Pliki</a>
+    <a class="small-navbar-button legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
+    <a class="small-navbar-button rss-icon" href="./feed.xml"></a>
+  </div>
+</nav>
+
+<!-- Logo sekcji -->
+<header>
+  <img src="./img/gry.png" class="logo" alt="">
+</header>
+
+<main>
+
+<h1 class="section-header">Gry komputerowe</h1>
+<div class="section-body">
+
+<p>
+<span class="book-title">Diuna</span> miała dużo szczęścia do adaptacji
+komputerowych.  Od początku lat 90. powstało wiele dobrych gier osadzonych w
+uniwersum wykreowanym przez Franka Herberta, zarówno na oficjalnych licencjach,
+jak i stworzonych przez fanów.  Co ciekawe, zdecydowana większość gier nie
+podejmowała się adaptacji fabuły powieści.  Twórcy najczęściej szli w stronę
+rozgrywki strategicznej, oferując fabułę alternatywną do wydarzeń z książki,
+nieraz rozbudowując uniwersum, by dostosować je do potrzeb rozgrywki.  W ciągu
+dziesięciu lat od 1992 do 2001 roku ukazało się pięć gier na oficjalnej licencji
+oraz liczne projekty fanowskie.  Z perspektywy czasu można powiedzieć, że był to
+złoty okres dla gier w uniwersum Diuny.
+</p>
+
+<p>
+Po dwóch dekadach posuchy coś w końcu ruszyło się w 2023 roku, kiedy niezależny
+developer Shiro Games wydał zapowiedzianą dwa lata
+wcześniej <span class="game-title">Dune: Spice Wars</span>.  Od 2022 roku
+czekamy również na zapowiedziane <span class="game-title">Dune:
+Awakening</span>, osadzoną w otwartym świecie grę MMO.  Nie wiem, co ostatecznie
+wyjdzie z tej ostatniej, ale jako fan bardzo cieszę się,
+że <span class="book-title">Diuna</span> ponownie została dostrzeżona przez
+twórców gier.
+</p>
+
+<!-- <h2 class="subsection-header">Gry na oficjalnej licencji</h2> -->
+
+<!-- <ul class="review-list"> -->
+<!-- <li><a class="link" href="gry/komputerowe/dune.html">Dune</a> (1992)</li> -->
+<!-- <li><a class="link" href="gry/komputerowe/dune2.html">Dune II</a> (1992)</li> -->
+<!-- <li><a class="link" href="gry/komputerowe/dune2000.html">Dune 2000</a> (1998)</li> -->
+<!-- <li><a class="link" href="gry/komputerowe/emperor.html">Emperor: Battle for Dune</a> (2001)</li> -->
+<!-- <li><a class="link" href="gry/komputerowe/fhdune.html">Frank Herbert's Dune</a> (2001)</li> -->
+<!-- <li><a class="link" href="gry/komputerowe/spicewars.html">Dune: Spice Wars</a> (2023)</li> -->
+<!-- </ul> -->
+
+<h2 class="subsection-header">Gry fanowskie</h2>
+
+<ul class="review-list">
+  <li><a class="link" href="gry/komputerowe/behindthedune.html">Behind The
+  Dune</a> (2016)
+  <p class="abstract">
+  Czy pomysł przerobienia oryginalnej gry <span class="game-title">Dune</span> z
+  1992 na wersję porno ma rację bytu?  Okazuje się, że jeśli podjedzie się do
+  tematu z głową, to otrzymany rezultat końcowy jest zaskakująco dobry.
+  </p>
+  </li>
+</ul>
+
+<!-- <h2 class="subsection-header">Gry anulowane</h2> -->
+
+<!-- <ul class="review-list"> -->
+<!-- <li><a class="link" href="gry/komputerowe/dunegenerations.html">Dune: Generations</a></li> -->
+<!-- <li><a class="link" href="gry/komputerowe/orniassault.html">Ornithopter Assault</a></li> -->
+<!-- </ul> -->
+</div>
+
+<h2 class="section-header">Gry planszowe</h2>
+<div class="section-body">
+<p>
+Pierwsza gra planszowa osadzona w świecie stworzonym przez Franka Herberta,
+zatytułowana <span class="book-title">Dune</span>, ukazała się w 1979 i zdobyła
+przychylność fanów.  Przez kolejne 40 lat powstały tylko dwie kolejne gry na
+licencji <span class="book-title">Diuny</span>.  W 1984 pojawiła się prosta
+planszówka oparta na licencji filmu Lyncha, która przeszła bez większego echa.
+W 1997, kiedy na fali sukcesu <span class="game-title">Magic: The
+Gathering</span> jak grzyby po deszczu pojawiały się kolejne kolekcjonerskie
+gry karciane, wydana została karcianka
+<span class="game-title"><a class="link"
+href="https://www.ccgtrader.net/games/dune-ccg" rel="noreferrer">Dune: Eye of
+the Storm</a></span>.  Gra zakończyła swój żywot bardzo szybko: po przejęciu jej
+wydawcy przez Wizards of the Coast <span class="game-title">Dune: Eye of the
+Storm</span> zniknęła z rynku w 1998 roku.
+</p>
+
+<p>
+Po latach ciszy nastąpił wysyp planszówek w świecie
+<span class="book-title">Diuny</span>.  Od 2019 roku na oficjalnej licencji
+ukazało się blisko dziesięć gier planszowych wraz z licznymi rozszerzeniami.
+<span class="book-title">Diuna</span> stała się modnym tematem jak niegdyś w
+świecie gier komputerowych, choć nad jakością nowych gier można dyskutować.  Do
+tego, podobnie jak w przypadku gier komputerowych, powstały liczne projekty
+fanowskie.
+</p>
+
+<ul class="review-list">
+ <li>
+  <a class="link" href="gry/planszowe/diuna-imperium.html">Diuna: Imperium</a> (2020)
+  <p class="abstract">
+  Pierwsza od lat 90. nowa planszówka w świecie
+  <span class="book-title">Diuny</span>.  Gra euro do 4 graczy oparta o
+  mechanikę worker placement oraz budowanie talii i oferująca stosunkowo krótki
+  czas rozgrywki.  Gracze w serwisie BoardGameGeek oceniają ją wysoko, ale mnie
+  osobiście nie porwała.
+  </p>
+ </li>
+</ul>
+</div>
+
+<!--
+<div class="section-header">Gry fabularne</div>
+<div class="section-body">
+  <div>
+  </div>
+
+  <ul class="review-list">
+  <li><a class="link" href="gry/planszowe/diuna-rpg.html">Diuna: Przygody w Imperium</a></li>
+  </ul>
+</div>
+-->
+
+</main>
+
+<footer>
+<div class="footer">
+Data ostatniej modyfikacji: 2024-02-01
+</div>
+</footer>
+
+</body>
+</html>

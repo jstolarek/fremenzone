@@ -1,0 +1,27 @@
+BODY {SCROLLBAR-FACE-COLOR: "#990000"; SCROLLBAR-HIGHLIGHT-COLOR: "#990000"; SCROLLBAR-SHADOW-COLOR: "#990000"; SCROLLBAR-3DLIGHT-COLOR: "#990000"; SCROLLBAR-ARROW-COLOR: "#FFFFCC"; SCROLLBAR-TRACK-COLOR: "#FFFFCC"; SCROLLBAR-DARKSHADOW-COLOR: black}
+P {font: 17px; font-family: "Times New Roman"}
+.just {text-align: "justify";}
+DD {font: 17px; font-family: "Times New Roman"}
+FONT {font: font-family: "Times New Roman"}
+.js {font: 20px; font-family: "Times New Roman"; color:#FFFFFF}
+A:LINK {font:  font-family: "Times New Roman"; color: #990000}
+A:VISITED {font: font-family: "Times New Roman"; color: #990000}
+A:HOVER {font: font-family: "Times New Roman"; color: #CC9933}
+
+input, textarea, select { font-family: Verdana; font-size: 9pt; color:black; background-color:#FFFFCC; border-color:white }
+
+.fz-back-link {
+  padding: 8px 16px;
+  width: 100px;
+  float: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: #990000;
+  color: white;
+  position: absolute;
+  bottom: 10;
+}
+
+.fz-back-link:hover {
+  color: #CC9933
+}

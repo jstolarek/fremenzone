@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jan Stolarek">
+  <link rel="stylesheet" type="text/css" href="../styl.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.png">
+  <link rel="license" href="../LICENCJA.md">
+  <title>Fremen Zone</title>
+</head>
+
+<body>
+
+<!-- Przełączanie widoczności menu na małych ekranach -->
+<script src="../showSmallMenu.js"></script>
+
+<!-- Belka nawigacyjna -->
+<nav>
+  <!-- Duże ekrany -->
+  <div class="navbar">
+    <!-- Hamburger menu widoczne na małych ekranach. -->
+    <a class="navbar-hide-large" href="javascript:void(0);"
+       onclick="showSmallMenu()" title="Menu strony">
+      <div class="hamburger-menu-icon"></div></a>
+    <!-- Wpisy menu widoczne na dużych ekranach. -->
+    <a class="large-navbar-button navbar-hide-small navbar-active-button" href="../index.html">Wstęp</a>
+    <a class="large-navbar-button navbar-hide-small" href="../ksiazki.html">Książki</a>
+    <a class="large-navbar-button navbar-hide-small" href="../filmy.html">Filmy</a>
+    <a class="large-navbar-button navbar-hide-small" href="../gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small" href="../artykuly.html">Artykuły</a>
+    <a class="large-navbar-button navbar-hide-small" href="../pliki.html">Pliki</a>
+    <a class="large-navbar-button navbar-hide-small rss-icon" href="../feed.xml"></a>
+    <a class="large-navbar-button navbar-hide-small legacy-navbar-button" href="../legacy/index.htm">Stara strona</a>
+  </div>
+
+  <!-- Małe ekrany.  Wpisy wyświetlane/chowane z poziomu skryptu. -->
+  <div id="small-navbar-id" class="navbar navbar-hide navbar-hide-large">
+    <a class="small-navbar-button navbar-active-button" href="../index.html">Wstęp</a>
+    <a class="small-navbar-button" href="../ksiazki.html">Książki</a>
+    <a class="small-navbar-button" href="../filmy.html">Filmy</a>
+    <a class="small-navbar-button" href="../gry.html">Gry</a>
+    <a class="small-navbar-button" href="../artykuly.html">Artykuły</a>
+    <a class="small-navbar-button" href="../pliki.html">Pliki</a>
+    <a class="small-navbar-button legacy-navbar-button" href="../legacy/index.htm">Stara strona</a>
+    <a class="small-navbar-button rss-icon" href="../feed.xml"></a>
+  </div>
+</nav>
+
+<!-- Logo sekcji -->
+<header>
+  <img src="../img/index.png" class="logo" alt="">
+</header>
+
+<main>
+
+<h1 class="section-header">Licencja</h1>
+<div class="section-body">
+
+<p>
+Autorem i właścicielem wszelkich praw autorskich do tekstów znajdujących się na
+tej stronie jest Jan Stolarek, chyba że wyraźnie zaznaczono inaczej.  Dozwolone
+jest wykorzystanie niewielkich fragmentów tekstów na prawach cytatu, przy czym
+wymagane jest podanie źródła.  Zabronione jest wykorzystanie całości bądź
+znaczących fragmentów artykułów bez uzyskania pisemnej zgody autora.  Zabronione
+jest wykorzystywanie tekstów znajdujących się na stronie w celach trenowania
+modeli sztucznej inteligencji.
+</p>
+
+
+<div class="go-back-link">
+  <a class="link" href="../index.html">Wstecz</a>
+</div>
+
+</div>
+
+</main>
+
+<footer>
+<div class="footer">
+Data ostatniej modyfikacji: 2024-01-28
+</div>
+</footer>
+
+</body>
+</html>
