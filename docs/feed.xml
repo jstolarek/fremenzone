@@ -5,14 +5,16 @@
   <description>Strona fanowska poświęcona "Diunie" Franka Herberta i wszystkiemu co z nią związane.</description>
   <copyright>Copyright by Jan Stolarek, 2000-2024</copyright>
   <language>pl-pl</language>
-  <pubDate>2024-02-01T19:35:18+01:00</pubDate>
-  <lastBuildDate>2024-02-04T18:24:58+01:00</lastBuildDate>
-  <webMaster>fremenzone@mailbox.org</webMaster>
+  <pubDate>Sun, 04 Feb 2024 20:05:01 +0100</pubDate>
+  <lastBuildDate>Sun, 04 Feb 2024 20:05:01 +0100</lastBuildDate>
+  <webMaster>fremenzone@mailbox.org (Jan Stolarek)</webMaster>
   <atom:link href="https://www.fremenzone.pl/feed.xml" rel="self" type="application/rss+xml"/>
 
   <item>
     <title>Startuje nowa wersja Fremen Zone</title>
-    <author>fremenzone@mailbox.org</author>
+    <author>fremenzone@mailbox.org (Jan Stolarek)</author>
+    <pubDate>Sun, 04 Feb 2024 20:05:01 +0100</pubDate>
+    <guid isPermaLink="false">f9e43150-60ce-4467-9ac2-affb9e7ba5c9</guid>
     <description><![CDATA[<article><section>
     <h1 class="section-header">Wstępniak</h1>
 <p>
@@ -124,8 +126,6 @@ Spice Wars</span>.  Ponadto przymierzam się do recenzji książki
 </section>
 </article>]]>
     </description>
-    <pubDate>2024-02-01T19:35:18+01:00</pubDate>
-    <guid>f9e43150-60ce-4467-9ac2-affb9e7ba5c9</guid>
   </item>
 
 </channel>
