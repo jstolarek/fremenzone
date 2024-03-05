@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Jan Stolarek">
+  <link rel="preload" as="font" type="font/woff2" href="./fonts/fa-solid-900.woff2" crossorigin>
+  <link rel="preload" as="style" type="text/css" href="./styl.css">
   <link rel="stylesheet" type="text/css" href="./styl.css">
   <link rel="icon" type="image/x-icon" href="./favicon.png">
   <link rel="license" href="./LICENCJA.md">
@@ -29,6 +31,7 @@
     <a class="large-navbar-button navbar-hide-small" href="./ksiazki.html">Książki</a>
     <a class="large-navbar-button navbar-hide-small" href="./filmy.html">Filmy</a>
     <a class="large-navbar-button navbar-hide-small" href="./gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small" href="./gadzety.html">Gadżety</a>
     <a class="large-navbar-button navbar-hide-small" href="./artykuly.html">Artykuły</a>
     <a class="large-navbar-button navbar-hide-small" href="./pliki.html">Pliki</a>
     <a class="large-navbar-button navbar-hide-small rss-icon" type="application/rss+xml" href="./feed.xml"></a>
@@ -41,6 +44,7 @@
     <a class="small-navbar-button" href="./ksiazki.html">Książki</a>
     <a class="small-navbar-button" href="./filmy.html">Filmy</a>
     <a class="small-navbar-button" href="./gry.html">Gry</a>
+    <a class="small-navbar-button" href="./gadzety.html">Gadgety</a>
     <a class="small-navbar-button" href="./artykuly.html">Artykuły</a>
     <a class="small-navbar-button" href="./pliki.html">Pliki</a>
     <a class="small-navbar-button legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
@@ -59,25 +63,27 @@
 <div class="section-body">
 <p>
 Witam w serwisie Fremen Zone, poświęconym powieści Franka Herberta pt.
-<span class="book-title">Diuna</span> oraz wszelkim tematom pokrewnym.
+<span class="title">Diuna</span> oraz wszelkim tematom pokrewnym.
 Znajdziecie tu recenzje książek, filmów, gier, publicystykę i pliki do
 ściągnięcia.
 </p>
 
-<p>Możliwe, że pamiętasz Fremen Zone z wczesnych lat dwutysięcznych.  Pierwsza
+<p>
+Możliwe, że pamiętasz Fremen Zone z wczesnych lat dwutysięcznych.  Pierwsza
 wersja strony pojawiła się w sieci w roku 2000, istniała przez kilka lat, po
 czym, jak większość stron fanowskich z tamtego okresu, rozpłynęła się w
 niebycie.  Link do starej wersji strony znajdziesz w pasku nawigacyjnym na górze
 po prawej.  Pełną historię strony opisałem w tekście <a class="link"
 href="./artykuly/historia-fremenzone.html">Moja
-fascynacja <span class="book-title">Diuną</span>, czyli jak powstało Fremen
+fascynacja <span class="title">Diuną</span>, czyli jak powstało Fremen
 Zone</a>.
 </p>
 
-<p>Strona, którą oglądasz teraz, to współczesne wcielenie Fremen Zone.
+<p>
+Strona, którą oglądasz teraz, to współczesne wcielenie Fremen Zone.
 Wszystkie recenzje i teksty piszę od nowa.  Docelowy plan jest taki, żeby
 ponownie zrecenzować wszystko, co znajdowało się w pierwotnej wersji serwisu
-&#8212; cały oryginalny cykl <span class="book-title">Diuny</span>, stare gry,
+&#8212; cały oryginalny cykl <span class="title">Diuny</span>, stare gry,
 czy ekranizację Lyncha &#8212; a także wszelkie nowości, które pojawiły się
 przez ostatnie dwie dekady.  Będzie to wymagało dużo czasu, a przed stroną
 jeszcze długa droga, zanim będzie ją można uznać za w pełni skończoną.  Dlatego
@@ -89,8 +95,8 @@ tekstach.
 <p>
 Ponieważ strona powstała z myślą o fanach, a więc w założeniu osobach, które
 opisywany materiał znają, <b>recenzje i artykuły dotyczące
-<span class="book-title">Diuny</span> zawierają spoilery</b>.  Jeśli trafiłeś
-tutaj, nie wiedząc nic o <span class="book-title">Diunie</span>, polecam zacząć
+<span class="title">Diuny</span> zawierają spoilery</b>.  Jeśli trafiłeś
+tutaj, nie wiedząc nic o <span class="title">Diunie</span>, polecam zacząć
 od tekstu <a class="link"
 href="./artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie do
 uniwersum Diuny</a>.
@@ -103,71 +109,68 @@ Kontakt: <span class="contact-mail">@</span>
 
 <h1 class="section-header">Najnowsza aktualizacja</h1>
 <div class="section-body">
+
 <p>
-Właśnie oglądasz pierwszą wersję nowej strony.  Na początek skupiłem się na
-recenzjach, których na starej stronie nie było:
+Publikacja strony w internecie na początku lutego przebiegła sprawnie.  Jedynym
+potknięciem było niewyświetlanie się ikony RSS na urządzeniach mobilnych, a
+naprawa tego kosztowała mnie zarwanie wieczoru.  Kilka dni po opublikowaniu
+strony zrobiłem jeszcze serię drobnych poprawek technicznych związanych z samą
+zawartością kanału RSS.
 </p>
 
-<ul class="review-list">
-  <li><a class="link" href="./ksiazki/roj-hellstroma.html">Rój Hellstroma</a>
-  (1973)
-  <p class="abstract">
-  Zainspirowana dokumentem, który zdobył Oskara, opowieść o szalonym naukowcu,
-  wcielającym w życie wizję idealnego społeczeństwa na swojej odludnej farmie.
-  </p>
-  </li>
+<p>
+Przez ostatni miesiąc aktywnie pracowałem nad dalszymi recenzjami na stronę.
+Główną atrakcją bieżącej aktualizacji jest recenzja gry <a class="link"
+href="./gry/komputerowe/spicewars.html">Dune: Spice Wars</a>, czyli
+najnowszej strategii 4X od Shiro Games.  Wygląda na to, że po dwóch dekadach
+przerwy w końcu dostajemy przyzwoitę gradaptację osadzoną w świecie Diuny.
+Pojawił się także nowy dział &#8212; <a class="link"
+href="./gadzety.html">Gadżety</a> &#8212; w którym będę umieszczał
+recenzje różnych diunowych gadżetów, akcesoriów i innych drobiazgów.  Na
+początek są w nim recenzje <a class="link"
+href="./gadzety/lego-10327-ornitopter.html">ornitoptera z klocków Lego</a>
+oraz <a class="link" href="./gadzety/theory-11-karty-dune.html">talii kart
+do gry od theory11</a>.
+</p>
 
-  <li><a class="link" href="./filmy/diuna-2021.html">Diuna: Część Pierwsza</a>
-  (2021)
-  <p class="abstract">
-  Po ponad pół wieku od momentu pierwszego wydania
-  <span class="book-title">Diuna</span> w końcu doczekała się godnej
-  ekranizacji.  Film Denisa Villeneuve bardzo dobrze adaptuje materiał źródłowy
-  i jestem przekonany, że fani będą do tego filmu wracać przez kolejne dekady.
-  </p>
-  </li>
+<p>
+Niektórzy mogą pamiętać, że obiecałem recenzję książki
+<span class="title">Sztuka i duch Diuny</span> i planszówki
+<span class="title">Diuna: Sekrety Rodu</span>.  No cóż, jeszcze ich nie ma.
+Wniosek na przyszłość jest taki, żeby nic nie obiecywać :-)
+</p>
 
-  <li><a class="link" href="./gry/komputerowe/behindthedune.html">Behind The
-  Dune</a> (2016)
-  <p class="abstract">
-  Czy pomysł przerobienia oryginalnej gry <span class="game-title">Dune</span> z
-  1992 na wersję porno ma rację bytu?  Okazuje się, że jeśli podjedzie się do
-  tematu z głową, to otrzymany rezultat końcowy jest zaskakująco dobry.
-  </p>
-  </li>
+<p>
+Oprócz nowych recenzji, pojawiły się też drobne korekty w tych już istniejących.
+Ponadto poświęciłem sporo czasu na dopracowanie różnych drobiazgów technicznych,
+które nie będą widoczne na pierwszy rzut oka:
+</p>
 
- <li>
-  <a class="link" href="./gry/planszowe/diuna-imperium.html">Diuna:
-  Imperium</a> (2020)
-  <p class="abstract">
-  Pierwsza od lat 90. nowa planszówka w świecie
-  <span class="book-title">Diuny</span>.  Gra euro do 4 graczy oparta o
-  mechanikę worker placement oraz budowanie talii i oferująca stosunkowo krótki
-  czas rozgrywki.  Gracze w serwisie BoardGameGeek oceniają ją wysoko, ale mnie
-  osobiście nie porwała.
-  </p>
- </li>
+<ul>
+  <li>Zrobiłem optymalizacje, które powinny przyspieszyć ładowanie strony,
+  m.in. preload czcionek oraz obcięcie czcionek sieciowych tylko do dwóch
+  faktycznie używanych znaków.</li>
+
+  <li>Dodałem poprawne opisy obrazów w tagach <code>alt</code>.  Nie załatwia to
+  jeszcze całkowicie tematu dostępności strony dla osób korzystających z
+  czytników ekranu, ale jest krokiem w tym kierunku.</li>
+
+  <li>Dodałem własną stronę <a class="link" href="./404.html">błędu
+  404</a>.</li>
+
+  <li>Zrobiłem porządek ze znakami cudzysłowów i apostrofami, czyli &bdquo; oraz
+  &rdquo; zamiast &quot; i &rsquo; zamiast &apos;</li>
 </ul>
 
-<p>
-Do tego w dziale <a class="link" href="./artykuly.html">Artykuły</a>
-znajdziecie trzy teksty.  <a class="link"
-href="./artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie do
-uniwersum Diuny</a> skierowane jest dla osób, które nie czytały
-powieści.  <a class="link" href="./artykuly/historia-fremenzone.html">Moja
-fascynacja <span class="book-title">Diuną</span>, czyli jak powstało Fremen
-Zone</a> to tekst wspomnieniowy o historii strony.  Z kolei <a class="link"
-href="./artykuly/diuna-w-czasopismach-komputerowych-lat-90.html">Diuna w
-czasopismach komputerowych lat 90.</a> stanowi przygotowanie pod przyszłe
-recenzje starych gier z uniwersum Diuny.
+<p class="no-bottom-margin">
+Ostatnia rzecz, to kwestia ilustracji w recenzjach.  Na chwilę obecną w wielu
+recenzjach brakuje zdjęć, które chciałbym tam docelowo umieścić.  Wynika to z
+tego, że zdjęcia do recenzji gier planszowych i gadżetów chciałbym wykonać
+samodzielnie, ale obecne warunki lokalowe nie pozwalają mi na zrobienie tego
+dobrze.  Mam nadzieję, że za kilka miesięcy ulegnie to zmianie i uda mi się
+uzupełnić brakujęce fotki.
 </p>
 
-<p class="no-bottom-margin">
-Aktualnie pracuję nad recenzją gry komputerowej <span class="game-title">Dune:
-Spice Wars</span>.  Ponadto przymierzam się do recenzji książki
-<span class="book-title">Sztuka i duch Diuny</span> oraz planszówki
-<span class="game-title">Diuna: Sekrety Rodu</span>.
-</p>
 </div>
 
 <h1 class="section-header">O stronie</h1>
@@ -177,7 +180,7 @@ Spice Wars</span>.  Ponadto przymierzam się do recenzji książki
   <li><a class="link" href="index/kanon.html">Co to jest kanon?</a>
   <p class="abstract">
   Kilka słów o moim podejściu do kwestii kanonu
-  w <span class="book-title">Diunie</span> i czemu nie znajdziecie tu nowych
+  w <span class="title">Diunie</span> i czemu nie znajdziecie tu nowych
   powieści duetu Brian Herbert-Kevin J. Anderson.
   </p>
   </li>
@@ -202,7 +205,7 @@ Spice Wars</span>.  Ponadto przymierzam się do recenzji książki
 
 <footer>
 <div class="footer">
-Data ostatniej modyfikacji: 2024-02-04
+Data ostatniej modyfikacji: 2024-03-03
 </div>
 </footer>
 

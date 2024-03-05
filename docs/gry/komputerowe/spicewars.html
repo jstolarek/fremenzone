@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jan Stolarek">
+  <link rel="preload" as="font" type="font/woff2" href="../../fonts/fa-solid-900.woff2" crossorigin>
+  <link rel="preload" as="style" type="text/css" href="../../styl.css">
+  <link rel="stylesheet" type="text/css" href="../../styl.css">
+  <link rel="icon" type="image/x-icon" href="../../favicon.png">
+  <link rel="license" href="../../LICENCJA.md">
+  <title>Gry | Fremen Zone</title>
+</head>
+
+<body>
+
+<!-- Przełączanie widoczności menu na małych ekranach -->
+<script src="../../showSmallMenu.js"></script>
+
+<!-- Belka nawigacyjna -->
+<nav>
+  <!-- Duże ekrany -->
+  <div class="navbar">
+    <!-- Hamburger menu widoczne na małych ekranach. -->
+    <a class="navbar-hide-large" href="javascript:void(0);"
+       onclick="showSmallMenu()" title="Menu strony">
+      <div class="hamburger-menu-icon"></div></a>
+    <!-- Wpisy menu widoczne na dużych ekranach. -->
+    <a class="large-navbar-button navbar-hide-small" href="../../index.html">Wstęp</a>
+    <a class="large-navbar-button navbar-hide-small" href="../../ksiazki.html">Książki</a>
+    <a class="large-navbar-button navbar-hide-small" href="../../filmy.html">Filmy</a>
+    <a class="large-navbar-button navbar-hide-small navbar-active-button" href="../../gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small" href="../../gadzety.html">Gadżety</a>
+    <a class="large-navbar-button navbar-hide-small" href="../../artykuly.html">Artykuły</a>
+    <a class="large-navbar-button navbar-hide-small" href="../../pliki.html">Pliki</a>
+    <a class="large-navbar-button navbar-hide-small rss-icon" type="application/rss+xml" href="../../feed.xml"></a>
+    <a class="large-navbar-button navbar-hide-small legacy-navbar-button" href="../../legacy/index.htm">Stara strona</a>
+  </div>
+
+  <!-- Małe ekrany.  Wpisy wyświetlane/chowane z poziomu skryptu. -->
+  <div id="small-navbar-id" class="navbar navbar-hide navbar-hide-large">
+    <a class="small-navbar-button" href="../../index.html">Wstęp</a>
+    <a class="small-navbar-button" href="../../ksiazki.html">Książki</a>
+    <a class="small-navbar-button" href="../../filmy.html">Filmy</a>
+    <a class="small-navbar-button navbar-active-button" href="../../gry.html">Gry</a>
+    <a class="small-navbar-button" href="../../gadzety.html">Gadgety</a>
+    <a class="small-navbar-button" href="../../artykuly.html">Artykuły</a>
+    <a class="small-navbar-button" href="../../pliki.html">Pliki</a>
+    <a class="small-navbar-button legacy-navbar-button" href="../../legacy/index.htm">Stara strona</a>
+    <a class="small-navbar-button rss-icon" type="application/rss+xml" href="../../feed.xml"></a>
+  </div>
+</nav>
+
+<!-- Logo sekcji -->
+<header>
+  <img src="../../img/gry.png" class="logo" alt="">
+</header>
+
+<main>
+
+<h1 class="section-header">Dune: Spice Wars</h1>
+<div class="section-body">
+
+<div class="info-section">
+<a class="info-cover-small" href="../../img/gry/komputerowe/dune-spice-wars/okladka.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/okladka.jpg" class="info-cover"
+       alt="Grafika tytułowa gry Dune: Spice Wars.  Na dole grafiki widoczna
+       jest pokryta piachem i skałami powierzchnia planety Arrakis.  Nad nią
+       widoczne dwa księżyce.  Górna część grafiki jest ciemna, z delikatnie
+       widocznymi gwiazdami.  Na górze pośrodku znajduje się tytuł gry.">
+</a>
+
+<ul class="info-contents">
+  <li><span class="info-list-entry">Tytuł:</span> Dune: Spice Wars</li>
+  <li><span class="info-list-entry">Studio:</span> <a class="link"
+    href="https://shirogames.com/" rel="noreferrer">Shiro Games</a></li>
+  <li><span class="info-list-entry">Data wydania:</span> 2023</li>
+  <li><span class="info-list-entry">Platforma:</span> Windows, XBox Series X/S</li>
+</ul>
+
+</div>
+
+<p>
+W latach 1992-2001 na oficjalnej licencji ukazało się pięć gier osadzonych w
+świecie <span class="title">Diuny</span>.  Po roku 2001 nastała, trwająca
+dwie dekady, cisza.  Trudno mi odgadnąć dokładne przyczyny tego stanu rzeczy,
+ale na pewno kluczowy był upadek studiów do tej pory wypuszczających gry na
+licencji Diuny.  Wydany w 2001 <span class="title">Emperor: Battle for
+Dune</span>, choć ciepło przyjęty, był jedną z ostatnich gier spod szyldu
+Westwood Studios, które zostało zamknięte w 2003 roku.  Los nie był również
+łaskawy dla Cryo.  Po finansowej porażce <span class="title">Frank
+Herbert&rsquo;s Dune</span> studio zamknęło się w 2002.  Czemu nikt inny nie przejął
+wtedy licencji?  Czy była to kwestia braku pomysłów na nowe gry?  W końcu
+najwięcej sukcesu odniosły strategie Westwoodu, a panująca w drugiej połowie lat
+90. moda na RTSy powoli przemijała.  Czy też może właściciele licencji nie byli
+w ogóle zainteresowani produkcją kolejnych gier, <a class="link"
+href="https://www.pcgamer.com/gogs-10-year-journey-to-bring-old-games-back-to-life/"
+target="_blank" rel="noopener noreferrer">tak jak dzisiaj nie są zainteresowani
+ponowną dystrybucją <span class="title">Dune</span>
+i <span class="title">Dune II</span></a>?  Mógłbym jedynie zgadywać.
+</p>
+
+<p>
+Coś ruszyło się dopiero pod koniec 2021 roku, kiedy
+<a href="https://shirogames.com/dune-spice-wars-announcement/" class="link"
+rel="noreferrer">studio Shiro Games ogłosiło, że od dwóch lat pracuje nad
+strategią <span class="title">Dune: Spice Wars</span></a>.  Shiro Games to
+stosunkowo małe, niezależne studio z Francji, do którego osobiście mam dużo
+sympatii i zaufania.  <span class="title">Dune: Spice Wars</span> pojawiła się
+we wczesnym dostępie na platformie Steam w kwietniu 2022 roku, a we wrześniu
+2023 doczekaliśmy się jej pełnej wersji.  Po spędzeniu z grą kilkudziesięciu
+godzin uznaję ją za godną następczynię tytułów z lat 90.
+</p>
+
+<h2 class="subsection-header">Podbój Arrakis</h2>
+
+<p>
+<span class="title">Dune: Spice Wars</span> to gra strategiczna z gatunku
+4X, co stanowi skrót od angielskich słów <i>explore</i>, <i>expand</i>,
+<i>exploit</i> i <i>exterminate</i>.  Tłumacząc na polski, gracz musi
+eksplorować otaczające go rejony mapy, zajmować kolejne terytoria, wydobywać z
+nich zasoby, by ostatecznie pokonać przeciwników.  Jeśli w tym momencie
+pomyśleliście o <span class="title">Cywilizacji</span>, to bardzo słusznie,
+bo to chyba najbardziej znany przedstawiciel gatunku.  Możecie się też
+zastanawiać, czy nowa gra ma cokolwiek wspólnego ze strategiami Westwoodu?  No
+to utnijmy to skojarzenie od razu i powiedzmy jasno: <em>pomimo bycia strategią
+czasu rzeczywistego, <span class="title">Dune: Spice Wars</span> w niczym
+nie przypomina starych gier Westwoodu</em>.  Tamte gry to były klasyczne RTSy.
+Wydobywaliśmy jeden zasób &#8212; przyprawę &#8212; z którego finansowaliśmy
+rozbudowę armii, a tej następnie należało użyć do zniszczenia bazy przeciwnika.
+W <span class="title">Dune: Spice Wars</span> mamy do czynienia z
+kilkunastoma różnymi zasobami, a do zwycięstwa można dojść nie tylko poprzez
+fizyczną eliminację przeciwnika, ale również dzięki dyplomacji lub ekonomii.
+</p>
+
+<p>
+Głównym daniem w rozgrywce jednoosobowej jest tryb Podboju, czyli, mówiąc
+krótko, kampania.  Do wyboru dostajemy jeden z czterech rodów: Atrydów,
+Harkonnenów, Ekazów i Corrinów.  Podobnie jak w strategiach Westwoodu, kampania
+przenosi nas na strategiczną mapę planety (w każdej kampanii inną, wygenerowaną
+losowo), z której będziemy wybierać kolejne obszary do podbicia.  Naszymi
+przeciwnikami zostają dwa losowo wybrane rody, ale w trakcie misji spotkamy
+również Fremenów, Przemytników, a także rody renegackie.  Żeby zakończyć podbój
+Arrakis zwycięstwem, musimy osiągnąć dwa z czterech możliwych celów: pokonanie
+każdego z rodów, kontrolowanie ośmiu terytoriów albo zawarcie sojuszu z
+Fremenami.  Powodzenie w każdej misji wiąże się z nagrodami w postaci trwałych
+bonusów, które będą aktywne w kolejnych misjach.  Żeby nie było za prosto oprócz
+marchewki w postaci nagród, jest też kij.  W miarę jak stajemy się coraz
+potężniejsi, inni zaczynają postrzegać nas jako coraz większe zagrożenie, co w
+ostateczności może doprowadzić do tego, że przywódca naszego rodu zginie z rąk
+skrytobójców.  Im więcej terytoriów kontrolujemy, tym szybciej rośnie wskaźnik
+zagrożenia zamachem.  Przyznam, że w pierwszej chwili wydawało mi się to groźne,
+ale szybko przekonałem się, że wskaźnik ten daje się również obniżać, i
+ostatecznie nie martwiłem się o niego w ogóle.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/podboj-poczatek.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/podboj-poczatek.jpg"
+       alt="Mapa Arrakis podzielona na terytoria, z zaznaczonymi terytoriami
+       startowymi każdego rodu.  Znaczniki na mapie pokazują dostępne do wyboru
+       misje.  Po prawej stronie ekranu widoczne okno opisu wybranej misji,
+       zawierajace informację o celach i nagrodach oraz możliwość wyboru jednego
+       z czterech doradców.  W lewym górnym rogu widoczne cele kampanii.">
+</a>
+<figcaption>
+Ekran wyboru misji na początku kampanii Atrydów.
+</figcaption>
+</figure>
+
+<h2 class="subsection-header">Przyprawa musi płynąć</h2>
+
+<p>
+Każda misja, którą przyjdzie nam rozgrywać, toczy się na mapie podzielonej na
+obszary.  Do nas początkowo należy jedynie obszar startowy z główną bazą.
+Większość obszarów, za wyjątkiem nielicznych rejonów głębokiej pustyni, zawiera
+wioskę, którą musimy podbić, aby przyłączyć dany region do naszego terytorium.
+W tym celu wysyłamy wojska, pacyfikujemy obronę wioski i instalujemy własną
+administrację.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/start-misji.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/start-misji.jpg"
+       alt="Mapa na początku misji.  Większość mapy jest nieodkryta.  Gracz
+       kontroluje tylko jeden obszar oraz posiada pięć oddziałów startowych.
+       Kilka rejonów blisko bazy jest już odkrytych.  Dwa ornitoptery badają
+       symbole znaków zapytania rozmieszczone na mapie.">
+</a>
+<figcaption>
+Początek misji: garstka wojsk na obszarze startowym i ornitoptery eksplorujące
+najbliższą okolicę.
+</figcaption>
+</figure>
+
+<p>
+Każda wioska posiada możliwość stawiania budynków (maksymalnie pięciu), z
+których większość umożliwia produkcję zasobów &#8212; i to właśnie o zasoby
+przede wszystkim będzie nam w tej grze chodzić.  Najprostsze w działaniu to
+zasoby czysto materialne.  Solari (pieniądze) służą przede wszystkim do
+opłacania utrzymania wojska oraz budynków, ale zapłacimy nimi również za
+niektóre bardziej zaawansowane budynki oraz misje szpiegowskie.  Plasbeton
+(czemu nie znana z powieści plastal?) pozwala na stawianie budynków.  Dzięki
+wodzie zaopatrujemy zarówno budowle posiadane w wioskach jak i wojska znajdujące
+się poza naszym terytorium &#8212; im więcej mamy wody, tym dłużej będą w stanie
+operować na wrogich obszarach.  Ogniwa paliwowe z kolei pozwolą na zasilanie
+jednostek mechanicznych, a siła robocza pozwoli na trenowanie wojska oraz
+personelu do żniwiarek.  I tak dochodzimy do przyprawy, której zbieranie jest
+niezbędne do regularnego opłacania podatku imperialnego, zaś nadmiar po
+opłaceniu podatku daje nam pieniądze.  Istnieją również liczne zasoby
+niematerialne, takie jak pozycja w Landsraadzie czy władza, ale o nich za
+chwilę.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/misja-w-trakcie.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/misja-w-trakcie.jpg"
+       alt="Ta sama misja co na wcześniejszym obrazku, ale tym razem znacznie
+       większa część mapy jest odsłonięta.  Gracz kontroluje wiele terytoriów.
+       Poniżej terytorium kontrolowanego przez gracza znajdują się obszary
+       kontrolowane przez ród Ekazów.  Widać, że dwie z wiosek należących do
+       Ekazów są właśnie oblegane przez wojska Atrydów.">
+</a>
+<figcaption>
+W połowie misji.  Na dole dwie wioski pod kontrolą Ekazów w trakcie przejmowania
+przez wojska Atrydów.
+</figcaption>
+</figure>
+
+<p>
+Zdecydowana większość z tych zasobów może być produkowana przez któryś z
+budynków w wiosce.  I tak rafineria umożliwi zbiór przyprawy na pustyni,
+kolektory rosy zapewnią wodę, centrum rekrutacyjne ludzi, a centrum wywiadowcze
+punkty wywiadu.  Oczywiście jak łatwo się domyślić, przy kilkunastu zasobach i
+tylko kilku miejscach na budowę budynków trzeba się dobrze zastanowić co gdzie
+produkować.  Istotne jest tutaj to, że region regionowi nie równy.  Wiele
+regionów posiada zasoby specjalne, które albo podbiją produkcję w którymś z
+budynków, albo umożliwią postawienie budynków specjalnych.  Przykładowo,
+rafinerię postawimy tylko w rejonie, w którym występują piaski przyprawowe.  Co
+więcej, każda wioska ma swoje unikalne cechy, które również dobrze jest wziąć
+pod uwagę jeśli chcemy zmaksymalizować produkcję.
+</p>
+
+<p>
+Nie wszystkie budynki służą produkcji zasobów.  Są takie, które obniżą koszty
+utrzymania innych budynków, zwiększą siłę wojska albo umożliwią ich szybki
+transport na odległość.  Mamy też budynki specjalne takie jak silosy atomowe
+albo siedziba Gildii Kosmicznej &#8212; taki budynek można zbudować tylko jeden
+na misję.  No i wreszcie, w naszej kwaterze głównej możemy stawiać potężne
+budynki specjalne.  Są one drogie zarówno w budowie jak i utrzymaniu, ale
+zapewniają istotne bonusy, zaś zapełnienie kilku slotów na budynki tworzące
+jedną dzielnicę zapewni dodatkowe premie.
+</p>
+
+<h2 class="subsection-header">Próbowali zabić mojego syna!</h2>
+
+<p>
+Ale czym byłaby Diuna bez polityki?  W końcu jest ona centralnym elementem
+powieści.  Na szczęście twórcy z Shiro Games pomyśleli i o tym.  W grze
+regularnie obraduje Landsraad, co 20 dni głosując nad trzema rezolucjami.
+Rezolucje mogą wpłynąć na rozgrywkę w przeróżny sposób, oferując premie bądź
+kary, czy to dla jednej wybranej frakcji, czy też dla wszystkich.  Każda z
+frakcji uczestniczących w rozgrywce posiada odnawialną pulę głosów dostępnych
+na każdym spotkaniu rady oraz dodatkowe punkty wpływu, które mogą być
+produkowane jak każdy inny zasób, a po wydaniu przepadają.  Każda frakcja ma też
+określoną pozycję w Landsraadzie.  Wysoka pozycja przekłada się na więcej
+głosów, lepszy kurs sprzedaży przyprawy do KHOAMu oraz punkty Hegemonii, będące
+jednym z kryteriów zwycięstwa.  Pozycję w Landsraadzie można zwiększać, ale
+można też je utracić, na przykład łamiąc zawarty traktat o nieagresji albo
+atakując główną siedzibę innej frakcji.  Jeśli zdecydujemy się na użycie broni
+atomowej przeciwko innej frakcji nasza pozycja praktycznie spadnie do zera.
+Bardzo podoba mi się to powiązanie polityki z działaniami militarnymi i to, jak
+stosowanie tych drugich utrudnia nam rozgrywki dyplomatyczne.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/landsraad.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/landsraad.jpg"
+       alt="Wyświetlone okno z wynikami zakończoncyh obrad Laandsradu.  Środkową
+       część okna zajmują trzy rezolucja.  Każda z nich zawiera opis eefektu
+       rezolucji oraz informację o rozkładzie głosów.  Nad opisem rezolucji
+       pokazany jest portret przywódcy zwycięskiej frakcji.  Po prawej stronie
+       okna widać ilość głosów posiadanych przez każdą frakcję.  Ród Ekazów i
+       Corrinów mają bardzo dużo głosów.  Przemytnicy i Fremeni mają ich
+       trzy-cztery razy mniej.">
+</a>
+<figcaption>
+Wyniki obrad Laandsradu.  Widać niskie wpływy Przemytników i Fremenów.
+</figcaption>
+</figure>
+
+<p>
+Kolejna warstwa gry to szpiegostwo.  W regularnych odstępach czasu otrzymujemy
+agentów, których można przypisywać do różnych zadań: od infiltrowania innych
+rodów, poprzez działania w instytucjach politycznych takich jak Gildia albo
+KHOAM, po kontrwywiad i utrzymywanie sojuszy z siczami Fremenów.  Agenci
+przypisani do pracy na Arrakis umożliwią nam badanie, odnajdywanych na mapie
+przez ornitoptery, znalezisk, z których możemy pozyskać przeróżne zasoby.  Z
+kolei agenci przypisani do szpiegowania danej frakcji zwiększą nasz poziom
+wiedzy o niej, umożliwiając przeprowadzanie misji szpiegowskich.  Te wahają się
+od prostych operacji logistycznych, jak na przykład zrzut zaopatrzenia dla
+wojska operującego na wrogim terytorium, przez misje sabotażowe osłabiające
+obronę wrogich wiosek i bazy głównej, po kosztowne i trudne do przeprowadzenia
+zamachy na przywódców wrogich frakcji.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/szpiegostwo.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/szpiegostwo.jpg"
+       alt="Wyświetlone okno do zarządzania agenatmi i misjami wywiadowczymi.
+       Widać agentów przypisanych do różnych zadań.  Dwóch agentów znajduje się
+       w siczach Fremenów.  Jeden agent zajmuje się kontrwywiadem.  Jeden agent
+       szpieguje ród Ekazów.  Trójka agentów działa na powierzchni Arrakis.
+       Trzech zajmuje się Gildią kosmiczną, jeden KHOAMem i dwóch Landsraadem.
+       Z prawej strony okna znajduje się lista dostępnych misji wywiadowczych.">
+</a>
+<figcaption>
+Agenci dają dostęp do misji wywiadowczych, które często są kluczowe dla
+powodzenia operacji militarnych.
+</figcaption>
+</figure>
+
+<h2 class="subsection-header">Plany w planach</h2>
+
+<p>
+Następnie mamy badania naukowe.  W grze istnieją cztery drzewka rozwoju
+technologii: gospodarcze, wojskowe, państwowe i ekspansji.  W ramach każdego
+dostępnych jest dziewięć odkryć, których zbadanie zapewni korzyści takie jak
+dostęp do nowych budynków czy szybsza produkcja zasobów.  Typowa
+misja jest na tyle krótka, że zdążymy przebadać około połowy dostępnych do
+odkrycia technologii, więc dobrze jest mieć jakiś pomysł na rozgrywkę i
+świadomie decydować, w którą stronę chcemy skierować rozwój.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/drzewko-technologii.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/drzewko-technologii.jpg"
+       alt="Otworzone okno rozwoju technologii.  Podzielone jest na cztery
+       obszary, z których każdy zawiera jedno drzewo technologii zawieraujące
+       dziewięć pozycji.  Aktualnie wyświetlany jest szczegółowy opis jednej z
+       technologii.">
+</a>
+<figcaption>
+Po najechaniu kursorem na nazwę technologii wyświetla się jej szczegółowy opis.
+</figcaption>
+</figure>
+
+<p>
+Na początku każdej misji wybieramy dwóch z czterech dostępnych doradców, którzy
+zapewnią nam bonusy na czas trwania misji.  Doradcy podzieleni są na łatwych i
+trudnych w użyciu, co powinno ułatwić początkującemu graczowi dobór doradców do
+poziomu swoich umiejętności.  W domyśle: lepiej zacząć od doradców łatwych,
+którzy najczęściej zapewniają bonusy o charakterze militarno-terytorialnym.  Ci
+trudniejsi najczęściej oferują premie związane z dyplomatyczno-szpiegowskimi
+aspektami rozgrywki.  Dla mnie osobiście ten podział okazał się bardzo
+subiektywny i zdarzało mi się, że regularnie wybierałem jednego z teoretycznie
+trudnych w użyciu doradców, bo dla mnie okazywał się on prosty w użyciu.
+</p>
+
+<p>
+Jeśli myślicie, że opisanych powyżej mechanik jest całkiem sporo, to śpieszę
+powiedzieć, że to jeszcze nie wszystko.  W trakcie gry możemy handlować akcjami
+KHOAM, a przekroczenie kolejnych progów ilości posiadanych akcji daje różne
+bonusy.  Ponadto co jakiś czas w trakcie rozgrywki pojawiają się zadania
+opcjonalne: realizacja jednego z dwóch celów przed określonym terminem pozwala
+na uzyskanie nagrody.  Czasami będzie to trwały bonus do produkcji, innym razem
+darmowa jednostka.  Możemy też handlować ze znajdującymi się na mapie siczami
+Fremenów, a po zaskarbieniu sobie ich sympatii, również zawierać z nimi sojusze.
+Do tego co jakiś czas mamy do czynienia z różnymi losowymi przeszkadzajkami, od
+czerwi &#8212; szybko nauczyłem się, że urządzanie potyczek wojskowych na
+otwartym piasku to bardzo zły pomysł &#8212; po burze piaskowe i ataki rodów
+renegackich.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/burza.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/burza.jpg"
+       alt="Zbliżenie na powierzchnię planety, pokazujące burzę piaskową.  Burza
+       zajmuje większość ekranu, a pośród kłębów pyłu widoczne są błyski
+       piorunów.  Burza przykrywa trzy wioski należące do Atrydów.">
+</a>
+<figcaption>
+Burze piaskowe potrafią mocno uszkodzić wojsko na otwartej pustyni.
+</figcaption>
+</figure>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/czerw.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/czerw.jpg"
+       alt="Zbliżenie na powierzchnię planety pokazujące oddziały wojskowe
+       stojące na skałach obok wioski.  Tuż za skałmi, z pustyni wystaje paszcza
+       czerwia, który właśnie zaatakował oddziały stojące na piasku.">
+</a>
+<figcaption>
+Czerwie zniszczą je od razu.
+</figcaption>
+</figure>
+
+<p>
+Została nam jeszcze jedna rzecz &#8212; wojsko.  Wspomniałem już o nim
+przelotem, ale pora powiedzieć parę słów więcej.  Przede wszystkim, jak już
+pewnie wywnioskowaliście z akapitów powyżej, nie jest to najważniejszy
+element rozgrywki.  Jasne, <span class="title">Dune: Spice Wars</span> to
+strategia i wojska będą nieodzowne, chociażby po to, żeby przyłączać nowe
+regiony, w których potem będziemy działać ekonomicznie.  Ale w porównaniu do
+typowej strategii czasu rzeczywistego ilość i zróżnicowanie dostępnych jednostek
+jest stosunkowo niewielka.  Każda frakcja ma kilka podstawowych oddziałów
+piechoty, w tym wspólne dla wszystkich jednostki typu najemnicy i skrytobójcy.
+Do tego dochodzi jakiś oddział specjalny i jednostki lotnicze dostępne dzięki
+układom z Gildią Kosmiczną.  I to właściwie koniec.  Ilość oddziałów, które
+możemy posiadać w jednej chwili, również jest stosunkowo niewielka.  Więcej niż
+kilkanaście to już wielka armia, o czym możecie się przekonać, patrząc na dół
+prawego panelu na zrzutach ekranu w tym artykule.  Mały rozmiar armii wynika po
+pierwsze z ograniczenia w postaci Punktów Dowodzenia &#8212; oczywiście
+możliwych do zwiększenia dzięki badaniom i budynkom &#8212; i po drugie z
+konieczności opłacania kosztów utrzymania wojska.  Jeśli nie rozkręcimy dobrze
+ekonomii, może się zdarzyć, że nie będzie nas stać na większą armię nawet jeśli
+mamy do rozdysponowania punkty dowodzenia.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/terytorium.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/terytorium.jpg"
+       alt="Widok na mapę na zaawansowanym etapie misji.  Terytorium zajmowane
+       przez gracza nie jest spójne.  Trzy obszaru są odcięte od głównego
+       terytorium i otoczone są przez obszary kontrolowane przez przeciwników.
+       Wokół większości wiosek gracza znajdują się białe okręgi, pokazujęce
+       zasięg transportu lotniczego.">
+</a>
+<figcaption>
+Posiadanie lotnisk (białe okręgi) umożliwia szybki transport wojsk między
+odległymi terytoriami.
+</figcaption>
+</figure>
+
+<p>
+Jeśli po przeczytaniu powyższych akapitów czujecie się przytłoczeni ilością
+mechanik, to nie jesteście sami.  Ja podszedłem do gry z dużą obawą, czy dam
+radę to wszystko pojąć na tyle sensownie, żeby móc w pełni świadomie podejmować
+decyzje w trakcie rozgrywki.  Przy pierwszym zetknięciu
+z <span class="title">Dune: Spice Wars</span> postanowiłem więc okazać
+pokorę i zacząłem od rozegrania sześciu misji szkoleniowych, mających nauczyć
+podstawowych mechanik gry.  Nie są to samouczki idealne i nie pokazują
+wszystkiego, ale uczą wystarczająco dużo, żeby móc zacząć grać.  Po
+ukończeniu samouczków postanowiłem przejść kampanię na łatwym poziomie
+trudności.  Trochę tego potem żałowałem, bo już po jakichś dwóch godzinach gry w
+pierwszą misję miałem niezłe pojęcie, co robię, a gdzieś od trzeciej misji gra
+była zdecydowanie za prosta.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/misja-podsumowanie.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/misja-podsumowanie.jpg"
+       alt="Okno ze statystykami zakończonej właśnie misji.  Otwarta jest
+       zakładka podsumowania, na której znajdują się informacje o zdobytych
+       punktach Hegemonii, udziałach w KHOAMie oraz zabitych jednostek.  Na
+       górze okna do wyboru są kolejne zakładki z bardziej szczegółowymi
+       podsumowaniami dotyczącymi rozwoju, ekonomii, terytoriów, polityki i
+       wojska.">
+</a>
+<figcaption>
+Po zakończeniu każdej misji możemy obejrzeć szczegółowe statystyki z rozgrywki.
+</figcaption>
+</figure>
+
+<p>
+Nie martwcie się też, jeśli brakuje wam refleksu.
+Wprawdzie <span class="title">Dune: Spice Wars</span> toczy się w czasie
+rzeczywistym, ale posiada aktywną pauzę.  Można więc zatrzymać upływ czasu i na
+spokojnie wydać polecenia jednostkom w walce albo zaplanować budowę czy badania.
+Co ważne, istnieje też możliwość przyspieszenia upływu czasu.  Ja w pewnym
+momencie wyrobiłem sobie nawyk grania na maksymalnej, dwukrotnej, kompresji i
+każdorazowego pauzowania gry gdy przychodziło do wydawania poleceń.  Mówiąc
+krótko, to nie <span class="title">Starcraft II</span> i nie musicie mieć
+refleksu, żeby grać.
+</p>
+
+<h2 class="subsection-header">Inne tryby rozgrywki i frakcje</h2>
+
+<p>
+Oprócz kampanii dla jednego gracza dostępne są również rozgrywki w trybie
+Pojedynku Kanly oraz Potyczki.  Ten pierwszy to szybka gra przeciwko jednej
+frakcji na stosunkowo niewielkiej mapie.  W tym trybie zwiększono produkcję
+niektórych zasobów, takich jak wiedza czy punkty władzy, pozwalając na znacznie
+szybszy rozwój.  W rezultacie pełną rozgrywkę w trybie Kanly można zamknąć w
+około godzinie.  Z kolei w trybie Pojedynku gramy na standardowych zasadach, ale
+dostajemy możliwość dostosowania parametrów rozgrywki, takich jak na przykład
+ilość przeciwników i ich trudność, warunki zwycięstwa, czy intensywność ataków
+czerwi.
+</p>
+
+<p>
+Pojedynek Kanly i Potyczką są dostępne zarówno w trybie jednoosobowym, jak i w
+wieloosobowej grze sieciowej.  Gry wieloosobowe toczą się za pośrednictwem
+centralnych serwerów, więc fani rozgrywek w sieci lokalnej mogą się poczuć
+zawiedzeni.  W chwili gdy piszę te słowa &#8212; niedzielny wieczór na początku
+marca 2024 &#8212; na europejskich serwerach trwa blisko dwadzieścia rozgrywek,
+a pięć kolejnych jest w trakcie kompletowania graczy.  Ponadto za
+pośrednictwem <a href="https://discord.gg/qWDe4ng9FE" class="link">Discorda
+gry</a> można umawiać się z innymi graczami na rozgrywki.  Tak więc na dzień
+dzisiejszy tryb sieciowy ma się dobrze i nie powinno być problemów ze
+znalezieniem partnerów do gry.
+</p>
+
+<p>
+Najfajniejsze w tych wszystkich trybach jest to, że dostajemy możliwość zagrania
+dwiema dodatkowymi frakcjami, Fremenami i Przemytnikami, których w trybie
+Podboju widzieliśmy jedynie pod kontrolą komputera.  Wszystkie frakcje różnią
+się między sobą.  Po pierwsze, każda posiada zestaw czterech unikalnych cech,
+trzech pozytywnej i jednej negatywnej.  Przykładowo, Atrydzi mogą przejmować
+władzę w wioskach w sposób pokojowy, czyli bez konieczności podbijania ich
+wojskiem.  Nie mają za to możliwości plądrowania neutralnych wiosek.  Wspomniani
+wcześniej doradcy także są unikalni dla każdej frakcji.  Zobaczymy tutaj wiele
+postaci z książek, począwszy od tych znanych, jak Gurney Halleck czy Piter de
+Vries, po takie, których chyba nawet najwięksi
+fani <span class="title">Diuny</span> nie pamiętają &#8212; jeśli bez
+sprawdzania w książkach wiesz kim był Drisq, Staban, albo Bannerjee, to należą
+ci się wyrazy uznania.  Ponadto każdy frakcja posiada inne drzewka rozwoju
+technologicznego.  Co prawda są one podobne w swoim zarysie, ale po bliższej
+analizie okazuje się, że technologie, choć w pierwszej chwili podobne, mimo
+wszystko różnią się detalami.  I wreszcie, frakcje posiadają odmienne
+jednostki wojskowe.
+</p>
+
+<p>
+Pomimo unikalnych cech, wybór frakcji nie narzuca jednego stylu rozgrywki,
+zostawiając graczowi dowolność w doborze drogi do zwycięstwa.  Przykładowo,
+grając Atrydami, z reguły decydowałem się na rozwiązania siłowe, a Harkonnenami
+na polityczne.  Tego typu elastyczność to ważne osiągnięcie zespołu
+projektującego grę.  Tym bardziej że kolejne misje w trybie Podboju różnią się
+od siebie, modyfikując zarówno parametry rozgrywki, jak i warunki zwycięstwa.
+Będą misje zmuszające do działań militarnych, ale i takie, które wymagają
+osiągnięć ekonomicznych czy politycznych.
+</p>
+
+<h2 class="subsection-header">Rysy na diamencie</h2>
+
+<p>
+Wszystkie wymienione wyżej mechaniki składają się na bardzo solidny rdzeń
+rozgrywki.  Gra wciąga, regularnie wywołując syndrom &bdquo;jeszcze pięciu
+minut&rdquo;, które nagle rozciągają się na dwie godziny i kończą kolejną zarwaną
+nocą.  Mówiąc krótko, <span class="title">Dune: Spice Wars</span> to
+świetna adaptacja świata <span class="title">Diuny</span> i godny następca
+strategii sprzed ponad dwóch dekad.  W chwili pisania tej recenzji gra
+dostarczyła mi blisko czterdziestu godzin rozgrywki i nadal nie mam dość.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/noc.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/noc.jpg"
+       alt="Zbliżenie na pustynię widzianą w nocy.  Kamera zawieszona jest
+       stosunkowo nisko nad powierzchnią i skierowana w dal.  Na pierwszym
+       planie widać ornitopter krążący nad punktem na pustyni.  Po lewej stronie
+       znajduje się urwisko, a niezbadany teren pod nim kryje się pod chmuarami.
+       W dali widać wioski oraz bazę główną, a ponad linią horyzontu ukazuje się
+       gwieździste niebo i dwa księżyce Arrakis.">
+</a>
+<figcaption>
+Nocny zwiad nad pustynią.  Chmury zasłaniają nieodkryte jeszcze rejony.
+</figcaption>
+</figure>
+
+<p>
+Grze brakuje jednak kilku szlifów.  Osobiście mam dwa większe zastrzeżenia.
+Pierwsze dotyczy złego balansu kampanii.  Wspomniałem wcześniej, że za kończenie
+kolejnych misji w trybie Podboju otrzymujemy trwałe bonusy.  W efekcie tego
+pierwsza misja kampanii jest najprostsza, bo jeszcze nie mamy żadnych bonusów, a
+kolejne stają się coraz łatwiejsze, bo zaczynamy akumulować ulepszenia.  Nie tak
+to powinno wyglądać &#8212; to początek powinien być prosty, a koniec trudny.
+Widziałem również wiele osób skarżących się w internecie na balans frakcji w
+rozgrywkach wieloosobowych, ale osobiście chyba jeszcze nie gram na takim
+poziomie, żeby to zauważyć.  Tego typu brak balansu między frakcjami jestem
+jednak w stanie wybaczyć, bo to coś, co bardzo ciężko osiągnąć i niewielkie
+studio niezależne, jakim jest Shiro Games, zwyczajnie nie ma na to zasobów.
+Świetnym przykładem jest tutaj wspomniany
+wcześniej <span class="title">Starcraft II</span>, który ma jedynie trzy frakcje
+i blisko 15 lat po premierze nadal otrzymuje poprawki zmieniające balans
+rozgrywki.
+</p>
+
+<p>
+Drugie z moich zastrzeżeń dotyczy inteligencji komputerowych przeciwników.
+Zacznijmy od wyjaśnienia, że na łatwym poziomie trudności komputer właściwie
+ignoruje istnienie gracza i odpowiada jedynie na bezpośrednie ataki.  Nie
+traktuję tego jako wady, a jedynie jako sposób uczynienia łatwego poziomu
+trudności istotnie łatwym &#8212; nie sposób jest tutaj mieć jakiekolwiek
+pretensje.  Skupię się więc na poziomie normalnym.  Przyznam, że komputerowi
+przeciwnicy zachowują się tutaj nierównomiernie.  Bardzo utkwiła mi w pamięci
+pierwsza misja kampanii Harkonnenów, gdzie mocno dali mi popalić Fremeni.
+Nagle okazało się, że moje wioski są regularnie atakowane, a przeciwnik nie
+dość, że potrafi zdradziecko wypowiedzieć zawarty sojusz, to jeszcze organizuje
+misje wywiadowcze mające na celu zabicie mnie.  Niestety, właściwie nie
+powtórzyło się to w dalszych misjach kampanii, w których komputer pozwalał się
+bardzo głupio ogrywać.
+</p>
+
+<p>
+Przykład pierwszy: W misji mającej na celu militarne pokonanie Atrydów &#8212;
+czyli zniszczenie ich głównej bazy &#8212; stopniowo pozbawiałem ich większości
+terytoriów.  W szczególności zająłem ciąg terytoriów prowadzących od mojej bazy
+do bazy Atrydów, kończąc zajęciem obszaru bezpośrednio sąsiadującego z wrogą
+bazą.  Zajęcie takiego obszaru to, w moim doświadczeniu, klucz do skutecznego
+ataku na główną bazę przeciwnika.  I co w tym czasie robi komputer?  Cóż,
+ewidentnie sztuczna inteligencja ma zakodowane, żeby przy małej ilości własnych
+obszarów próbować zająć nowe.  Stąd też ponawiane przez nią próby zajęcia kilku
+średnio odległych obszarów, które ja zostawiłem wolne.  Dodajmy, że próby
+właściwie skazane na porażkę ze względu na odległość od bazy i siłę obrońców
+wiosek &#8212; nawet jeśli Atrydom udało się ich pokonać, wkraczałem do akcji z
+kilkoma oddziałami z pobliskiego terytorium i łatwo wykańczałem niedobitki.  Nie
+było natomiast żadnej próby odbicia zajętego przeze mnie obszaru obok
+bazy, co powinno w takiej sytuacji być najwyższym priorytetem.
+</p>
+
+<p>
+Przykład drugi to ulepszona wersja powyższej taktyki,
+przypominająca <a href="https://pl.wikipedia.org/wiki/Taktyka_%C5%BCabich_skok%C3%B3w"
+class="link" rel="noreferrer">taktykę żabich skoków</a>.  Tym razem, ponownie
+mając na celu pokonanie Atrydów, odpuściłem sobie zdobywanie terytoriów
+pośrednich i zająłem wioskę bezpośrednio sąsiadującą z główną bazą.  Przez jakiś
+kwadrans gromadziłem tam wojska potrzebne do ataku, jak również szykowałem
+odpowiednie misje wywiadowcze (np. sabotaż zwiększający obrażenia zadawane
+głównej bazie) i kończyłem badać potrzebne technologie.  Ponownie, komputer nie
+podjął najmniejszej próby przeszkodzenia mi w tym.  W rezultacie takich
+niedoróbek możliwe staje się przechodzenie misji &bdquo;na skróty&rdquo;.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/zabie-skoki.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/zabie-skoki.jpg"
+       alt="Oddalony widok ukazuje na mapie duże terytorium zajęte przez wrogich
+       Atrydów.  Od południa sąsiaduje z nim jeden oderwany obszar Harkonnenów.
+       Drugi obszar zajęty przez Harkonnenów znajduje się w samym śrdoku
+       atrydzkiego terytorium i sąsiaduje z główną bazą.  Widać na tym obszarze
+       liczne oddziały wojskowe zgromadzone wokół wioski.  Nigdzie nie widać
+       wojsk Atrydów.">
+</a>
+<figcaption>
+Komputer nic sobie nie robi z armii stojącej u bram.
+</figcaption>
+</figure>
+
+<p>
+Sztuczna inteligencja nie radzi też sobie najlepiej w skali mikro.  Kiedy
+przychodzi do starć pomiędzy większymi grupami wojsk, ciężko jest zapanować nad
+własnymi oddziałami.  Jednostki potrafią się wzajemnie blokować i zmienić
+w bezładną kotłowaninę.  Co gorsza, nasze oddziały potrafią ślepo podążać za
+uciekającymi oddziałami wroga, nawet jeśli jasno rozkazujemy im oddalić się w
+innym kierunku.  W rezultacie walki potrafią być chaotyczne i trzeba dokładnie
+kontrolować, często przy użyciu aktywnej pauzy, czy jednostki robią to czego od
+nich oczekujemy.
+</p>
+
+<p>
+Można też mieć zastrzeżenia do handlu ze sztuczną inteligencją.  Wystarczy
+przedstawić odpowiednio hojną ofertę wymiany, a przeciwnik, ignorując całkowicie
+sytuację militarną na mapie, zgodzi się na wszystko.  Nawet jeśli właśnie
+sprzedaje zasoby, które są niezbędne do tego, żeby go pokonać.  Moim ulubionym
+przykładem jest rozgrywka, w której, mając do dyspozycji gigantyczne ilości
+przyprawy, skupowałem głosy potrzebne do zwycięstwa politycznego.  Nie powiem,
+pasuje to do ducha powieści.  Ba, można by nawet argumentować, że w prawdziwym
+świecie także dałoby się znaleźć przykłady podobnych zachowań, ale mimo
+wszystko wolałbym, żeby komputerowy przeciwnik był tutaj nieco mądrzejszy.
+</p>
+
+<p>
+Nie do końca jestem też zachwycony handlem akcjami KHOAM.  Mechanizm ten
+zasadniczo pozwala przepalić nadmiar gotówki w zamian za niewielkie bonusy po
+przekroczeniu progu 10&percnt; i 30&percnt; posiadanych akcji.  I niestety tylko
+tyle &#8212; nie udało mi się w nim doszukać żadnej większej głębi.
+</p>
+
+<p>
+Pomimo ilości miejsca, jakie poświęciłem na opisanie tych problemów, muszę
+podkreślić, że żadna z wymienionych wad nie popsuła mi zabawy.  Jasne, są to
+pewne niedoróbki, ale w grze od małego studia absolutnie jestem w stanie je
+wybaczyć.  To, co ważne, to fakt, że <span class="title">Dune: Spice
+Wars</span> posiada dobrze przemyślany rdzeń rozgrywki.  Po cichu liczę też, że
+gra doczeka się poprawek, które poprawią i balans i sztuczną inteligencję.
+</p>
+
+<p>
+Jeśli jest coś, co autentycznie mi się nie spodobało, to zakończenie trybu
+Podboju.  Kolejne misje kampanii starają się kreślić tło misji, przedstawiając
+je, a to jako nadarzającą się okazję do działań dywersyjnych, a to walkę z
+rodami renegackimi, a to wsparcie powstania Fremenów przeciwko wrogiemu rodowi.
+Na tle wprowadzeń do misji, zakończenie kampanii wypada bardzo blado i jest
+praktycznie nieistniejące.  Są to dwa-trzy krótkie zdania mówiące, że twoi
+wrogowie zostali pokonani, a ty wygrałeś.  Przyznam, że po trwającej kilkanaście
+godzin kampanii liczyłem na bardziej satysfakcjonujące zakończenie.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/misja-wstep.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/misja-wstep.jpg"
+       alt="Widok z samego początku misji.  Wokół bazy zgromadzona jest garstka
+       początkowych jednostek.  Obszary naokoło nie są jeszcze zbadane.  W
+       prawym górnym rogu wyświetla się okno z mentatem Piterem de Vries i całym
+       oknem tekstu wprowadzającym w kontekst i cel misji.">
+</a>
+<figcaption>
+Kolejne misje starają się nakreślać tło fabularne...
+</figcaption>
+</figure>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/kampania-koniec.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/kampania-koniec.jpg"
+       alt="Ekran kończący kampanię, pokazujący mapę Arrakis z podbitymi
+       terenami.  Po prawej stronie okno z mentatem Piterem de Vries mówiącym:
+       &bdquo;Wygrałeś, Baronie! Arrakis jest twoja! Cała przyprawa Imperium
+       znajduje się w twoich dłoniach.&rdquo; W porównaniu do tekstu
+       wprowadzającego do misji na wcześniejszym obrazku, tekst podsumowujący
+       kampanię jest bardzo krótki.">
+</a>
+<figcaption>
+...dlatego nijakie zakończenie kampanii rozczarowuje.
+</figcaption>
+</figure>
+
+<h2 class="subsection-header">Oprawa i wydanie</h2>
+
+<p>
+Od strony wizualnej gra prezentuje się bardzo elegancko.  Projekty wizualny gry
+nie został oparty na licencji filmowej, aczkolwiek patrząc na niektóre postacie,
+widać inspirację dziełem Villeneuve.  Dla mnie to plus, że artyści studia
+otrzymali wolną rękę przy tworzeniu swojej interpretacji artystycznej
+świata <span class="title">Diuny</span>.  Uważam, że wyszło to grze na
+dobre, a stworzona wizja zapisze się w wyobraźni fanów na lata.
+</p>
+
+<p>
+Podczas rozgrywki gra przełącza się między jednym z dwóch widoków pola walki.
+Zbliżając kamerę, ujrzymy widok taktyczny, pokazujący w pełnym trójwymiarze
+teren, wojska, budynki w wioskach, ornitoptery, czerwie czy burze.  Nie są to
+może jakieś fajerwerki graficzne, ale z pewnością grafika jest tutaj
+dobra.  Oddalając kamerę, gra przełączy się na widok strategiczny,
+w którym wyświetlane są wyłącznie ikony na dwuwymiarowej mapie.  Wszystko jest
+tutaj schludne i czytelne.  I o ile oglądanie powierzchni Arrakis po zbliżeniu
+kamery jest bardzo klimatyczne, to jednak z praktycznych względów większość
+rozgrywki spędzimy w widoku strategicznym.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/widok-taktyczny.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/widok-taktyczny.jpg"
+       alt="Widok na oddziały Atrydów atakujące główną bazę rodu Ekazów.
+       Widoczne są szczegóły ukształtowania terenu, położenie pojedynczych
+       jednostek, a także wioski naokoło wraz ze znajdującymi się w nich
+       budynkami.">
+</a>
+<figcaption>
+Widok taktyczny przydaje się głównie podczas walki, do wskazywania celów
+pojedynczym oddziałom.
+</figcaption>
+</figure>
+
+<p>
+Niestety, jako osoba z wadą wzroku mocno męczę się z interfejsem gry, a
+konkretnie z małym rozmiarem czcionki.  Co prawda gra posiada ustawienia
+dostępności pozwalające powiększyć interfejs, ale dla mnie są one
+niewystarczające.  To, co widzicie na wszystkich zdjęciach z gry, to jest
+maksymalny rozmiar, do jakiego można powiększyć czcionkę.  Dla mnie jest on
+wciąż za mały i w trakcie rozgrywki byłem zmuszony przysuwać monitor o
+kilkanaście centymetrów do przodu względem jego normalnego ustawienia.
+</p>
+
+<p>
+Ścieżka dźwiękowa gry jest bardzo dobra.  Dominuje mroczny ambient, świetnie
+budujący klimat rozgrywki.  Podejrzewam, że muzyka
+do <span class="title">Dune: Spice Wars</span> nie zapisze się w historii
+medium tak mocno jak ścieżki dźwiękowe Franka Klepackiego, ale z pewnością
+niczego nie można jej zarzucić.  Doceniam również, że zdubbingowano wstępy do
+misji.
+</p>
+
+<p>
+W chwili gdy piszę te słowa, gra dostępna jest wyłącznie w wersji cyfrowej na
+Windows na platformie Steam.  To, nie będę ukrywał, spore rozczarowanie dla
+mnie.  Po pierwsze, Shiro Games swoje wcześniejsze gry wypuszczało również na
+naszym rodzimym GOGu, a więc w wersji bez jakiegokolwiek DRM.  Sam z
+tego powodu odwlekałem zakup przez kilka miesięcy, i zdecydowałem się na niego
+dopiero przy okazji świątecznej wyprzedaży.  Po drugie, Shiro Games miało długą
+tradycję wypuszczania swoich gier również na Linuksa, a to za sprawą korzystania
+z języka <a href="https://haxe.org/" class="link" rel="noreferrer">Haxe</a>,
+który kompiluje się bez problemów na mnóstwo platform.  Niestety, już przy
+poprzedniej grze studia, <span class="title">Wartales</span>, nie
+dostaliśmy wersji linuksowej.  <span class="title">Dune: Spice Wars</span>
+wpisuje się w ten trend.  Wprawdzie na chwilę obecną gra działa pod Linuksem
+przy użyciu Wine albo Protona, ale dla mnie to nie jest stabilne i długofalowo
+akceptowalne rozwiązanie.
+</p>
+
+<p>
+Gra otrzymała spolszczenie kinowe, tzn. przetłumaczono cały tekst, zostawiając
+wszelkiego rodzaju tekst mówiony w oryginale.  Niestety, po spolszczeniu widać,
+że studio nie miało na nie dużego budżetu.  Zdarzają się błędy gramatyczne czy
+nieprzetłumaczone słowa, a także wiele niezręczności językowych.  To plus, że
+spolszczenie w ogóle jest, bo pozwala zagrać w grę osobom nieznającym
+angielskiego, ale nie uznałbym go za dobre.  Ja grałem po angielsku,
+co widać na załączonych obrazkach, a polską wersję językową włączyłem na
+krótko jedynie na potrzeby recenzji.
+</p>
+
+<figure class="thumbnail">
+<a href="../../img/gry/komputerowe/dune-spice-wars/tlumaczenie.jpg">
+  <img src="../../img/gry/komputerowe/dune-spice-wars/tlumaczenie.jpg"
+       alt="Ekran wyboru frakcji przed rozpocząciem rozgrywki.  Wyświetla się
+       opis aktualnie podświetlonej frakcji Harkonnenów. Opis jednej ze
+       zdolności głosi: &bdquo;Może używać Ucisk na Wioskach kontrolowanych
+       przez Harkonneni&rdquo;.  Dwa inne podpunkty zawierają nieprzetłumaczone
+       słowo villages, zamiast polskiego słowa wioska.">
+</a>
+<figcaption>
+Błędy tłumaczenia widać jeszcze przed rozpoczęciem właściwej rozgrywki.
+</figcaption>
+</figure>
+
+<h2 class="subsection-header">Podsumowanie</h2>
+
+<p>
+<span class="title">Dune: Spice Wars</span> okazało się być bardzo pozytywną
+niespodzianką.  Gra wyjęła mi z życia kilkadziesiąt godzin, i wszystko wskazuje
+na to, że na tym nie koniec.  Jestem bardzo ciekaw, jaka przyszłość czeka grę
+dalej.  Od momentu premiery gra otrzymała dwie większe poprawki, a na początku
+marca twórcy zapowiedzieli pierwsze DLC dodające Ix, czyli Ród Verniusów.  Nie
+ukrywam, że mam tutaj mieszane uczucia.  Z jednej strony jestem wielkim
+przeciwnikiem DLC i wydawania gier w kawałkach.  Z drugiej jednak rozumiem, że
+utrzymanie serwerów do gry sieciowej kosztuje pieniądze i jakoś trzeba te koszty
+pokryć.  W <span class="title">Dune: Spice Wars</span> nie ma mikrotransakcji
+ani innych zakupów, więc zostaje cykliczne wypuszczanie płatnych rozszerzeń.
+Dla mnie ostatecznie wszystko rozbije się o cenę DLC i ich ostateczną ilość.
+Poczekamy, zobaczymy.  Na pewno będzie trzeba w przyszłości tę recenzję
+zaktualizować z uwzględnieniem nowej zawartości.
+</p>
+
+<p>
+Bez względu na to jak potoczą się dalsze losy gry, już teraz zdecydowanie jest
+to gra, w którą warto zagrać.  Jeśli w latach 90. tak jak ja uwielbialiście
+gry od Westwoodu i tęsknicie za walką na pustyniach Arrakis,
+to <span class="title">Dune: Spice Wars</span> powinno przypaść wam do gustu.
+</p>
+
+
+<div class="go-back-link">
+  <a class="link" href="../../gry.html">Wstecz</a>
+</div>
+
+</div> <!-- section-body -->
+
+</main>
+
+<footer>
+<div class="footer">
+Data ostatniej modyfikacji: 2024-03-05
+</div>
+</footer>
+
+</body>
+</html>

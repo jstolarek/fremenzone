@@ -5,10 +5,83 @@
   <description>Strona fanowska poświęcona "Diunie" Franka Herberta i wszystkiemu co z nią związane.</description>
   <copyright>Copyright by Jan Stolarek, 2000-2024</copyright>
   <language>pl-pl</language>
-  <pubDate>Sun, 04 Feb 2024 20:05:01 +0100</pubDate>
-  <lastBuildDate>Sun, 04 Feb 2024 20:05:01 +0100</lastBuildDate>
   <webMaster>fremenzone@mailbox.org (Jan Stolarek)</webMaster>
   <atom:link href="https://www.fremenzone.pl/feed.xml" rel="self" type="application/rss+xml"/>
+  <pubDate>Tue, 05 Mar 2024 19:52:42 +0100</pubDate>
+  <lastBuildDate>Tue, 05 Mar 2024 19:52:42 +0100</lastBuildDate>
+
+  <item>
+    <title>Recenzje Dune: Spice Wars, dział Gadżety, i poprawki techniczne</title>
+    <author>fremenzone@mailbox.org (Jan Stolarek)</author>
+    <pubDate>Tue, 05 Mar 2024 19:52:42 +0100</pubDate>
+    <guid isPermaLink="false">ffc13aa8-882f-4eb2-9748-4ec7b223921f</guid>
+    <description><![CDATA[<article><section>
+
+    <p>
+    Publikacja strony w internecie na początku lutego przebiegła sprawnie.  Jedynym
+    potknięciem było niewyświetlanie się ikony RSS na urządzeniach mobilnych, a
+    naprawa tego kosztowała mnie zarwanie wieczoru.  Kilka dni po opublikowaniu
+    strony zrobiłem jeszcze serię drobnych poprawek technicznych związanych z samą
+    zawartością kanału RSS.
+    </p>
+
+    <p>
+    Przez ostatni miesiąc aktywnie pracowałem nad dalszymi recenzjami na stronę.
+    Główną atrakcją bieżącej aktualizacji jest recenzja gry <a class="link"
+    href="RELPATH/gry/komputerowe/spicewars.html">Dune: Spice Wars</a>, czyli
+    najnowszej strategii 4X od Shiro Games.  Wygląda na to, że po dwóch dekadach
+    przerwy w końcu dostajemy przyzwoitę gradaptację osadzoną w świecie Diuny.
+    Pojawił się także nowy dział &#8212; <a class="link"
+    href="RELPATH/gadzety.html">Gadżety</a> &#8212; w którym będę umieszczał
+    recenzje różnych diunowych gadżetów, akcesoriów i innych drobiazgów.  Na
+    początek są w nim recenzje <a class="link"
+    href="RELPATH/gadzety/lego-10327-ornitopter.html">ornitoptera z klocków Lego</a>
+    oraz <a class="link" href="RELPATH/gadzety/theory-11-karty-dune.html">talii kart
+    do gry od theory11</a>.
+    </p>
+
+    <p>
+    Niektórzy mogą pamiętać, że obiecałem recenzję książki
+    <span class="title">Sztuka i duch Diuny</span> i planszówki
+    <span class="title">Diuna: Sekrety Rodu</span>.  No cóż, jeszcze ich nie ma.
+    Wniosek na przyszłość jest taki, żeby nic nie obiecywać :-)
+    </p>
+
+    <p>
+    Oprócz nowych recenzji, pojawiły się też drobne korekty w tych już istniejących.
+    Ponadto poświęciłem sporo czasu na dopracowanie różnych drobiazgów technicznych,
+    które nie będą widoczne na pierwszy rzut oka:
+    </p>
+
+    <ul>
+    <li>Zrobiłem optymalizacje, które powinny przyspieszyć ładowanie strony,
+    m.in. preload czcionek oraz obcięcie czcionek sieciowych tylko do dwóch
+    faktycznie używanych znaków.</li>
+
+    <li>Dodałem poprawne opisy obrazów w tagach <code>alt</code>.  Nie załatwia to
+    jeszcze całkowicie tematu dostępności strony dla osób korzystających z
+    czytników ekranu, ale jest krokiem w tym kierunku.</li>
+
+    <li>Dodałem własną stronę <a class="link" href="RELPATH/404.html">błędu
+    404</a>.</li>
+
+    <li>Zrobiłem porządek ze znakami cudzysłowów i apostrofami, czyli &bdquo; oraz
+    &rdquo; zamiast &quot; i &rsquo; zamiast &apos;</li>
+    </ul>
+
+    <p class="no-bottom-margin">
+    Ostatnia rzecz, to kwestia ilustracji w recenzjach.  Na chwilę obecną w wielu
+    recenzjach brakuje zdjęć, które chciałbym tam docelowo umieścić.  Wynika to z
+    tego, że zdjęcia do recenzji gier planszowych i gadżetów chciałbym wykonać
+    samodzielnie, ale obecne warunki lokalowe nie pozwalają mi na zrobienie tego
+    dobrze.  Mam nadzieję, że za kilka miesięcy ulegnie to zmianie i uda mi się
+    uzupełnić brakujęce fotki.
+    </p>
+
+    </section>
+    </article>]]>
+    </description>
+  </item>
 
   <item>
     <title>Startuje nowa wersja Fremen Zone</title>
@@ -17,114 +90,111 @@
     <guid isPermaLink="false">f9e43150-60ce-4467-9ac2-affb9e7ba5c9</guid>
     <description><![CDATA[<article><section>
     <h1 class="section-header">Wstępniak</h1>
-<p>
-Witam w serwisie Fremen Zone, poświęconym powieści Franka Herberta pt.
-<span class="book-title">Diuna</span> oraz wszelkim tematom pokrewnym.
-Znajdziecie tu recenzje książek, filmów, gier, publicystykę i pliki do
-ściągnięcia.
-</p>
+    <p>
+    Witam w serwisie Fremen Zone, poświęconym powieści Franka Herberta pt.
+    <span class="title">Diuna</span> oraz wszelkim tematom pokrewnym.
+    Znajdziecie tu recenzje książek, filmów, gier, publicystykę i pliki do
+    ściągnięcia.
+    </p>
 
-<p>Możliwe, że pamiętasz Fremen Zone z wczesnych lat dwutysięcznych.  Pierwsza
-wersja strony pojawiła się w sieci w roku 2000, istniała przez kilka lat, po
-czym, jak większość stron fanowskich z tamtego okresu, rozpłynęła się w
-niebycie.  Link do starej wersji strony znajdziesz w pasku nawigacyjnym na górze
-po prawej.  Pełną historię strony opisałem w tekście <a class="link"
-href="https://www.fremenzone.pl/artykuly/historia-fremenzone.html">Moja
-fascynacja <span class="book-title">Diuną</span>, czyli jak powstało Fremen
-Zone</a>.
-</p>
+    <p>Możliwe, że pamiętasz Fremen Zone z wczesnych lat dwutysięcznych.
+    Pierwsza wersja strony pojawiła się w sieci w roku 2000, istniała przez
+    kilka lat, po czym, jak większość stron fanowskich z tamtego okresu,
+    rozpłynęła się w niebycie.  Link do starej wersji strony znajdziesz w pasku
+    nawigacyjnym na górze po prawej.  Pełną historię strony opisałem w tekście
+    <a class="link"
+    href="https://www.fremenzone.pl/artykuly/historia-fremenzone.html">Moja
+    fascynacja <span class="title">Diuną</span>, czyli jak powstało Fremen
+    Zone</a>.  </p>
 
-<p>Strona, którą oglądasz teraz, to współczesne wcielenie Fremen Zone.
-Wszystkie recenzje i teksty piszę od nowa.  Docelowy plan jest taki, żeby
-ponownie zrecenzować wszystko, co znajdowało się w pierwotnej wersji serwisu
-&#8212; cały oryginalny cykl <span class="book-title">Diuny</span>, stare gry,
-czy ekranizację Lyncha &#8212; a także wszelkie nowości, które pojawiły się
-przez ostatnie dwie dekady.  Będzie to wymagało dużo czasu, a przed stroną
-jeszcze długa droga, zanim będzie ją można uznać za w pełni skończoną.  Dlatego
-zachęcam do zasubskrybowania <a class="link" href="https://www.fremenzone.pl/feed.xml">kanału
-RSS</a> &#8212; w ten sposób otrzymasz powiadomienia o aktualizacjach i nowych
-tekstach.
-</p>
+    <p>Strona, którą oglądasz teraz, to współczesne wcielenie Fremen Zone.
+    Wszystkie recenzje i teksty piszę od nowa.  Docelowy plan jest taki, żeby
+    ponownie zrecenzować wszystko, co znajdowało się w pierwotnej wersji serwisu
+    &#8212; cały oryginalny cykl <span class="title">Diuny</span>, stare gry,
+    czy ekranizację Lyncha &#8212; a także wszelkie nowości, które pojawiły się
+    przez ostatnie dwie dekady.  Będzie to wymagało dużo czasu, a przed stroną
+    jeszcze długa droga, zanim będzie ją można uznać za w pełni skończoną.
+    Dlatego zachęcam do zasubskrybowania <a class="link"
+    href="https://www.fremenzone.pl/feed.xml">kanału RSS</a> &#8212; w ten
+    sposób otrzymasz powiadomienia o aktualizacjach i nowych tekstach.  </p>
 
-<p>
-Ponieważ strona powstała z myślą o fanach, a więc w założeniu osobach, które
-opisywany materiał znają, <b>recenzje i artykuły dotyczące
-<span class="book-title">Diuny</span> zawierają spoilery</b>.  Jeśli trafiłeś
-tutaj, nie wiedząc nic o <span class="book-title">Diunie</span>, polecam zacząć
-od tekstu <a class="link"
-href="https://www.fremenzone.pl/artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie do
-uniwersum Diuny</a>.
-</p>
+    <p> Ponieważ strona powstała z myślą o fanach, a więc w założeniu osobach,
+    które opisywany materiał znają, <b>recenzje i artykuły dotyczące <span
+    class="title">Diuny</span> zawierają spoilery</b>.  Jeśli trafiłeś tutaj,
+    nie wiedząc nic o <span class="title">Diunie</span>, polecam zacząć od
+    tekstu <a class="link"
+    href="https://www.fremenzone.pl/artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie
+    do uniwersum Diuny</a>.  </p>
 
-<h1>Najnowsza aktualizacja</h1>
-<p>
-Właśnie oglądasz pierwszą wersję nowej strony.  Na początek skupiłem się na
-recenzjach, których na starej stronie nie było:
-</p>
+    <h1>Najnowsza aktualizacja</h1>
+    <p>
+    Właśnie oglądasz pierwszą wersję nowej strony.  Na początek skupiłem się na
+    recenzjach, których na starej stronie nie było:
+    </p>
 
-<ul>
-  <li><a href="https://www.fremenzone.pl/ksiazki/roj-hellstroma.html">Rój Hellstroma</a>
-  (1973)
-  <p>
-  Zainspirowana dokumentem, który zdobył Oskara, opowieść o szalonym naukowcu,
-  wcielającym w życie wizję idealnego społeczeństwa na swojej odludnej farmie.
-  </p>
-  </li>
+    <ul>
+    <li><a href="https://www.fremenzone.pl/ksiazki/roj-hellstroma.html">Rój Hellstroma</a>
+    (1973)
+    <p>
+    Zainspirowana dokumentem, który zdobył Oskara, opowieść o szalonym naukowcu,
+    wcielającym w życie wizję idealnego społeczeństwa na swojej odludnej farmie.
+    </p>
+    </li>
 
-  <li><a class="link" href="https://www.fremenzone.pl/filmy/diuna-2021.html">Diuna: Część Pierwsza</a>
-  (2021)
-  <p>
-  Po ponad pół wieku od momentu pierwszego wydania
-  <span class="book-title">Diuna</span> w końcu doczekała się godnej
-  ekranizacji.  Film Denisa Villeneuve bardzo dobrze adaptuje materiał źródłowy
-  i jestem przekonany, że fani będą do tego filmu wracać przez kolejne dekady.
-  </p>
-  </li>
+    <li><a class="link" href="https://www.fremenzone.pl/filmy/diuna-2021.html">Diuna: Część Pierwsza</a>
+    (2021)
+    <p>
+    Po ponad pół wieku od momentu pierwszego wydania
+    <span class="title">Diuna</span> w końcu doczekała się godnej
+    ekranizacji.  Film Denisa Villeneuve bardzo dobrze adaptuje materiał źródłowy
+    i jestem przekonany, że fani będą do tego filmu wracać przez kolejne dekady.
+    </p>
+    </li>
 
-  <li><a class="link" href="https://www.fremenzone.pl/gry/komputerowe/behindthedune.html">Behind The
-  Dune</a> (2016)
-  <p>
-  Czy pomysł przerobienia oryginalnej gry <span class="game-title">Dune</span> z
-  1992 na wersję porno ma rację bytu?  Okazuje się, że jeśli podjedzie się do
-  tematu z głową, to otrzymany rezultat końcowy jest zaskakująco dobry.
-  </p>
-  </li>
+    <li><a class="link" href="https://www.fremenzone.pl/gry/komputerowe/behindthedune.html">Behind The
+    Dune</a> (2016)
+    <p>
+    Czy pomysł przerobienia oryginalnej gry <span class="title">Dune</span> z
+    1992 na wersję porno ma rację bytu?  Okazuje się, że jeśli podjedzie się do
+    tematu z głową, to otrzymany rezultat końcowy jest zaskakująco dobry.
+    </p>
+    </li>
 
- <li>
-  <a href="https://www.fremenzone.pl/gry/planszowe/diuna-imperium.html">Diuna:
-  Imperium</a> (2020)
-  <p>
-  Pierwsza od lat 90. nowa planszówka w świecie
-  <span class="book-title">Diuny</span>.  Gra euro do 4 graczy oparta o
-  mechanikę worker placement oraz budowanie talii i oferująca stosunkowo krótki
-  czas rozgrywki.  Gracze w serwisie BoardGameGeek oceniają ją wysoko, ale mnie
-  osobiście nie porwała.
-  </p>
- </li>
-</ul>
+    <li>
+    <a href="https://www.fremenzone.pl/gry/planszowe/diuna-imperium.html">Diuna:
+    Imperium</a> (2020)
+    <p>
+    Pierwsza od lat 90. nowa planszówka w świecie
+    <span class="title">Diuny</span>.  Gra euro do 4 graczy oparta o
+    mechanikę worker placement oraz budowanie talii i oferująca stosunkowo krótki
+    czas rozgrywki.  Gracze w serwisie BoardGameGeek oceniają ją wysoko, ale mnie
+    osobiście nie porwała.
+    </p>
+    </li>
+    </ul>
 
-<p>
-Do tego w dziale <a class="link" href="https://www.fremenzone.pl/artykuly.html">Artykuły</a>
-znajdziecie trzy teksty.  <a class="link"
-href="https://www.fremenzone.pl/artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie do
-uniwersum Diuny</a> skierowane jest dla osób, które nie czytały
-powieści.  <a class="link" href="https://www.fremenzone.pl/artykuly/historia-fremenzone.html">Moja
-fascynacja <span class="book-title">Diuną</span>, czyli jak powstało Fremen
-Zone</a> to tekst wspomnieniowy o historii strony.  Z kolei <a class="link"
-href="https://www.fremenzone.pl/artykuly/diuna-w-czasopismach-komputerowych-lat-90.html">Diuna w
-czasopismach komputerowych lat 90.</a> stanowi przygotowanie pod przyszłe
-recenzje starych gier z uniwersum Diuny.
-</p>
+    <p>
+    Do tego w dziale <a class="link" href="https://www.fremenzone.pl/artykuly.html">Artykuły</a>
+    znajdziecie trzy teksty.  <a class="link"
+    href="https://www.fremenzone.pl/artykuly/wprowadzenie-do-uniwersum-diuny.html">Wprowadzenie do
+    uniwersum Diuny</a> skierowane jest dla osób, które nie czytały
+    powieści.  <a class="link" href="https://www.fremenzone.pl/artykuly/historia-fremenzone.html">Moja
+    fascynacja <span class="title">Diuną</span>, czyli jak powstało Fremen
+    Zone</a> to tekst wspomnieniowy o historii strony.  Z kolei <a class="link"
+    href="https://www.fremenzone.pl/artykuly/diuna-w-czasopismach-komputerowych-lat-90.html">Diuna w
+    czasopismach komputerowych lat 90.</a> stanowi przygotowanie pod przyszłe
+    recenzje starych gier z uniwersum Diuny.
+    </p>
 
-<p>
-Aktualnie pracuję nad recenzją gry komputerowej <span class="game-title">Dune:
-Spice Wars</span>.  Ponadto przymierzam się do recenzji książki
-<span class="book-title">Sztuka i duch Diuny</span> oraz planszówki
-<span class="game-title">Diuna: Sekrety Rodu</span>.
-</p>
+    <p>
+    Aktualnie pracuję nad recenzją gry komputerowej <span class="title">Dune:
+    Spice Wars</span>.  Ponadto przymierzam się do recenzji książki
+    <span class="title">Sztuka i duch Diuny</span> oraz planszówki
+    <span class="title">Diuna: Sekrety Rodu</span>.
+    </p>
 
-</section>
-</article>]]>
+    </section>
+    </article>]]>
     </description>
   </item>
 
