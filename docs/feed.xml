@@ -7,8 +7,53 @@
   <language>pl-pl</language>
   <webMaster>fremenzone@mailbox.org (Jan Stolarek)</webMaster>
   <atom:link href="https://www.fremenzone.pl/feed.xml" rel="self" type="application/rss+xml"/>
-  <pubDate>Tue, 05 Mar 2024 19:52:42 +0100</pubDate>
-  <lastBuildDate>Tue, 05 Mar 2024 19:52:42 +0100</lastBuildDate>
+  <pubDate>Sat, 30 Mar 2024 14:18:20 +0100</pubDate>
+  <lastBuildDate>Sat, 30 Mar 2024 14:18:20 +0100</lastBuildDate>
+
+  <item>
+    <title>Recenzja filmu "Diuna: Część Druga" i książki "The Santaroga Barrier"</title>
+    <author>fremenzone@mailbox.org (Jan Stolarek)</author>
+    <pubDate>Sat, 30 Mar 2024 14:18:20 +0100</pubDate>
+    <guid isPermaLink="false">c7244247-8da0-4ae7-9f88-9a9757b8e28e</guid>
+    <link>https://www.fremenzone.pl</link>
+    <description><![CDATA[<article><section>
+
+    <p>
+    W dzisiejszej aktualizacji dochodzą dwie nowe recenzje.
+    </p>
+
+    <p>
+    Na początku marca do kin weszła <a class="link"
+    href="https://www.fremenzone.pl/filmy/diuna-czesc-druga.html">Diuna: Część Druga</a> w reżyserii
+    Denisa Villeneuve, domykając tym samym filmową
+    adaptację <span class="title">Diuny</span>.  Recenzja jest na świeżo po dwóch
+    seansach kinowych.
+    </p>
+
+    <p>
+    Druga z dzisiejszych nowości to recenzja niewydanej nigdy w Polsce powieści
+    Franka Herberta pt. <a class="link"
+    href="https://www.fremenzone.pl/ksiazki/the-santaroga-barrier.html">The Santaroga Barrier</a>.
+    Jest to opowieść o uniwersyteckim psychologu, który próbuje odkryć tajemnicę
+    społeczności żyjącej w dolinie Santaroga.  Powieść porusza tematykę sekretnego
+    społeczeństwa żyjącego w ukryciu przed światem, jak również kwestię poszerzania
+    świadomości za pomocą narkotyków.  Czy wam też przywodzi to na myśl przyprawę
+    z <span class="title">Diuny</span>?
+    </p>
+
+    <p class="no-bottom-margin">
+    Spędziłem również sporo czasu na próbie dopracowania menu strony na urządzeniach
+    mobilnych.  Próbowałem, po pierwsze, odejść od JavaScriptu i zrobić je jedynie
+    przy użyciu CSS i HTML, a po drugie naprawić błąd polegający na tym, że po
+    otworzeniu menu nie zamyka się ono samoczynnie kiedy kliknie się w treść strony
+    pod spodem.  Niestety, całe przedsięwzięcie zakończyło się porażką, więc menu
+    pozostaje tak, jak było.
+    </p>
+
+    </section>
+    </article>]]>
+    </description>
+  </item>
 
   <item>
     <title>Recenzja Dune: Spice Wars, dział Gadżety i poprawki techniczne</title>
@@ -29,15 +74,15 @@
     <p>
     Przez ostatni miesiąc aktywnie pracowałem nad dalszymi recenzjami na stronę.
     Główną atrakcją bieżącej aktualizacji jest recenzja gry <a class="link"
-    href="RELPATH/gry/komputerowe/spicewars.html">Dune: Spice Wars</a>, czyli
+    href="https://www.fremenzone.pl/gry/komputerowe/spicewars.html">Dune: Spice Wars</a>, czyli
     najnowszej strategii 4X od Shiro Games.  Wygląda na to, że po dwóch dekadach
     przerwy w końcu dostajemy przyzwoitę gradaptację osadzoną w świecie Diuny.
     Pojawił się także nowy dział &#8212; <a class="link"
-    href="RELPATH/gadzety.html">Gadżety</a> &#8212; w którym będę umieszczał
+    href="https://www.fremenzone.pl/gadzety.html">Gadżety</a> &#8212; w którym będę umieszczał
     recenzje różnych diunowych gadżetów, akcesoriów i innych drobiazgów.  Na
     początek są w nim recenzje <a class="link"
-    href="RELPATH/gadzety/lego-10327-ornitopter.html">ornitoptera z klocków Lego</a>
-    oraz <a class="link" href="RELPATH/gadzety/theory-11-karty-dune.html">talii kart
+    href="https://www.fremenzone.pl/gadzety/lego-10327-ornitopter.html">ornitoptera z klocków Lego</a>
+    oraz <a class="link" href="https://www.fremenzone.pl/gadzety/theory-11-karty-dune.html">talii kart
     do gry od theory11</a>.
     </p>
 
@@ -63,7 +108,7 @@
     jeszcze całkowicie tematu dostępności strony dla osób korzystających z
     czytników ekranu, ale jest krokiem w tym kierunku.</li>
 
-    <li>Dodałem własną stronę <a class="link" href="RELPATH/404.html">błędu
+    <li>Dodałem własną stronę <a class="link" href="https://www.fremenzone.pl/404.html">błędu
     404</a>.</li>
 
     <li>Zrobiłem porządek ze znakami cudzysłowów i apostrofami, czyli &bdquo; oraz
@@ -142,7 +187,7 @@
     </p>
     </li>
 
-    <li><a class="link" href="https://www.fremenzone.pl/filmy/diuna-2021.html">Diuna: Część Pierwsza</a>
+    <li><a class="link" href="https://www.fremenzone.pl/filmy/diuna-czesc-pierwsza.html">Diuna: Część Pierwsza</a>
     (2021)
     <p>
     Po ponad pół wieku od momentu pierwszego wydania
