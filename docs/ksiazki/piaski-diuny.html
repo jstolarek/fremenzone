@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jan Stolarek">
+  <link rel="preload" as="font" type="font/woff2" href="../fonts/fa-solid-900.woff2" crossorigin>
+  <link rel="preload" as="style" type="text/css" href="../styl.css">
+  <link rel="preload" as="image" type="image/png" href="../img/ksiazki.png">
+  <link rel="stylesheet" type="text/css" href="../styl.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.png">
+  <link rel="license" href="../LICENCJA.md">
+  <title>Książki | Fremen Zone</title>
+</head>
+
+<body>
+
+<!-- Przełączanie widoczności menu na małych ekranach -->
+<script src="../showSmallMenu.js"></script>
+
+<!-- Belka nawigacyjna -->
+<nav>
+  <!-- Duże ekrany -->
+  <div class="navbar">
+    <!-- Hamburger menu widoczne na małych ekranach. -->
+    <a class="navbar-hide-large" href="javascript:void(0);"
+       onclick="showSmallMenu()" title="Menu strony">
+      <div class="hamburger-menu-icon"></div></a>
+    <!-- Wpisy menu widoczne na dużych ekranach. -->
+    <a class="large-navbar-button navbar-hide-small" href="../index.html">Wstęp</a>
+    <a class="large-navbar-button navbar-hide-small navbar-active-button" href="../ksiazki.html">Książki</a>
+    <a class="large-navbar-button navbar-hide-small" href="../filmy.html">Filmy</a>
+    <a class="large-navbar-button navbar-hide-small" href="../gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small" href="../komiksy.html">Komiksy</a>
+    <a class="large-navbar-button navbar-hide-small" href="../gadzety.html">Gadżety</a>
+    <a class="large-navbar-button navbar-hide-small" href="../artykuly.html">Artykuły</a>
+    <a class="large-navbar-button navbar-hide-small" href="../pliki.html">Pliki</a>
+    <a class="large-navbar-button navbar-hide-small rss-icon" type="application/rss+xml" href="../feed.xml"></a>
+    <a class="large-navbar-button navbar-hide-small legacy-navbar-button" href="../legacy/index.htm">Stara strona</a>
+  </div>
+
+  <!-- Małe ekrany.  Wpisy wyświetlane/chowane z poziomu skryptu. -->
+  <div id="small-navbar-id" class="navbar navbar-hide navbar-hide-large">
+    <a class="small-navbar-button" href="../index.html">Wstęp</a>
+    <a class="small-navbar-button navbar-active-button" href="../ksiazki.html">Książki</a>
+    <a class="small-navbar-button" href="../filmy.html">Filmy</a>
+    <a class="small-navbar-button" href="../gry.html">Gry</a>
+    <a class="small-navbar-button" href="../komiksy.html">Komiksy</a>
+    <a class="small-navbar-button" href="../gadzety.html">Gadżety</a>
+    <a class="small-navbar-button" href="../artykuly.html">Artykuły</a>
+    <a class="small-navbar-button" href="../pliki.html">Pliki</a>
+    <a class="small-navbar-button legacy-navbar-button" href="../legacy/index.htm">Stara strona</a>
+    <a class="small-navbar-button rss-icon" type="application/rss+xml" href="../feed.xml"></a>
+  </div>
+</nav>
+
+<!-- Logo sekcji -->
+<header>
+  <img src="../img/ksiazki.png" class="logo" alt="">
+</header>
+
+<main>
+
+<h1 class="section-header">Piaski Diuny</h1>
+<div class="section-body">
+
+<div class="info-section">
+<a class="info-cover-small" href="../img/ksiazki/piaski-diuny/okladka-pl.jpg">
+  <img src="../img/ksiazki/piaski-diuny/okladka-pl.jpg" class="info-cover"
+       alt="Okładka polskiego wydania Piasków Diuny.  Ilustracja na okładce jest
+       surrealistyczna, pokazując wysmukłą skałę płynnie przechodzącą w
+       znajdujący się na jej szczycie zamek, otoczony równie wysmukłymi
+       wieżami.">
+</a>
+
+<ul class="info-contents">
+  <li><span class="info-list-entry">Tytuł oryginału:</span> Sands of Dune</li>
+  <li><span class="info-list-entry">Pierwsze wydanie:</span> Tor Books / Gollancz, 2022</li>
+  <li><span class="info-list-entry">Wydanie polskie:</span> Rebis, 2024</li>
+  <li><span class="info-list-entry">Tłumaczenie:</span> Maciej Szymański, Andrzej Jankowski</li>
+</ul>
+
+<a class="info-cover-small" href="../img/ksiazki/piaski-diuny/okladka-en.jpg">
+  <img src="../img/ksiazki/piaski-diuny/okladka-en.jpg" class="info-cover"
+       alt="Okładka angielskiego wydania Sands of Dune.  Na pierwszym planie
+       znajduje się mała sylwetka postaci ubranej w powiwającą na wietrze
+       pelerynę.  W oddali widać pałac otoczony skałami i zlewający się z nimi
+       kolorystycznie.  Pomiędzy bliską postacią a odległym pałacem rozciągają
+       się piaski pustyni.">
+</a>
+
+</div>
+
+<p>
+Stare porzekadło mówi, że tłumaczą się tylko winni.  Ja, szczerze mówiąc, czuję
+się winny i chcę zacząć od wytłumaczenia się.  No bo jak to?  W
+tekście <a href="../index/kanon.html" class="link">Co to jest kanon?</a>
+deklaruję jasno i wyraźnie, że nie uznaję książek napisanych przez Briana
+Herberta i Kevina J. Andersona i na Fremen Zone nie będzie ich recenzji, a teraz
+ot tak po prostu dodaję recenzję ich najnowszego zbioru opowiadań?  Pachnie co
+najmniej niekonsekwencją, jeśli nie hipokryzją.  A więc dlaczego?
+</p>
+
+<p>
+Zaczęło się od pomysłu na dział <a class="link"
+href="../komiksy.html">Komiksy</a>.  W ostatnich latach dostaliśmy całkiem
+sporo obrazkowych adaptacji powieści ze świata <span class="title">Diuny</span>,
+a ja, będąc miłośnikiem komiksu, postanowiłem przynajmniej kilka z nich wziąć na
+tapet.  Poza oczywistym wyborem w postaci <a class="link"
+href="../komiksy/diuna-powiesc-graficzna.html"><span class="title">Diuny. Powieści
+graficznej</span></a> postanowiłem też nieco poeksperymentować i
+przeczytać <a class="link"
+href="../komiksy/diuna-wody-kanly.html"><span class="title">Wody
+kanly</span></a>.  Już po zakupie dowiedziałem się, że jest to adaptacja jednego
+z opowiadań duetu Herbert-Anderson, a skoro to adaptacja, to dobrze móc ją
+porównać z pierwowzorem.  Tak się akurat złożyło, że na polskim rynku właśnie
+został wydany zbiór opowiadań pt. <span class="title">Piaski Diuny</span> i
+zawiera on <span class="title">Wody kanly</span>.  Miałem pewne opory, ale
+ostatecznie uznałem, że umysł jest jak spadochron i najlepiej działa, kiedy jest
+otwarty.  Postanowiłem zaryzykować.  Zresztą nie ukrywam, że była we mnie
+odrobina ciekawości.  Wprawdzie <span class="title">Ród Atrydów</span>, jedyna
+przeczytana przeze mnie powieść duetu Herbert-Anderson, pozostawiła u mnie duży
+niesmak, ale to przecież było 20 lat temu.  Może przez ten czas autorzy wyrobili
+się pisarsko i obecnie piszą lepiej?  Ostatecznie &#8212; pomyślałem &#8212;
+potraktuję te opowiadania jak fanfiki i przeczytam bez robienia sobie wielkich
+nadziei.
+</p>
+
+<p>
+Po takich oto rozważaniach postanowiłem nabyć <span class="title">Piaski
+Diuny</span>, wydane w Polsce przez Rebis pod koniec lutego 2024.  Wydawcy
+należy się pochwała, bo w porównaniu do angielskiego oryginału, w polskim
+wydaniu znalazły się trzy dodatkowe opowiadania: <span class="title">Czerwona
+zaraza</span> (2016), <span class="title">Ślubny jedwab</span> (2011)
+oraz <span class="title">Skarb w piasku</span> (2006).  Wydanie stoi na wysokim
+poziomie, do jakiego zdążył przyzwyczaić nas Rebis: twarda oprawa imitująca
+płótno, obwoluta ze złoceniami, wysokiej jakości papier i ilustracje Wojciecha
+Siudmaka.
+</p>
+
+<h2 class="subsection-header">Ostrze krysnoża</h2>
+
+<blockquote>
+Uznaliśmy, że warto opowiedzieć choć część historii o tym, jak dzielna fremeńska
+kobieta opierała się tyranii Harkonnenów zarówno brutalnymi, jak i subtelnymi
+środkami.
+<div class="quote-source">
+  <cite><span class="title">Piaski Diuny</span></cite>, str. 16</div>
+</blockquote>
+
+<p>
+Pierwsze z opowiadań, <span class="title">Ostrze krysnoża</span>, opowiada
+historię Szadout Mapes zanim została ochmistrzynią w rezydencji Atrydów na
+Arrakis.  Jego pierwsza część rozgrywa się 56 lat przed
+akcją <span class="title">Diuny</span>.  Szadout jest fedajkinką i wspólnie ze
+swoim ukochanym, Rafirem, walczy przeciwko Harkonnenom.  Matka Szadout, Safia,
+jest byłą fedajkinką &#8212; jej &bdquo;karierę&rdquo; przerwała utrata nogi
+&#8212; a obecnie naibką siczy.  Safia zleca Szadout nietypowe zadanie: ma
+zatrudnić się w rezydencji gubernatora planety Dymitra Harkonnena i wykraść z
+niej informacje pozwalające na skuteczniejsze ataki na Harkonnenów.  Zadanie
+kończy się sukcesem: Szadout zatrudnia się w służbie gubernatora i ukradkiem
+dowiaduje się o składzie przyprawy mającej być nielegalnie sprzedanej jednemu z
+rodów.  Fremeni postanawiają zniszczyć te zapasy, ale wszystko okazuje się być
+dobrze przygotowaną pułapką.  W trakcie ataku ginie cały oddział fedajkinów,
+łącznie z Rafirem.  Szadout jako jedyna uchodzi z życiem, niosąc w sobie dziecko
+Rafira.
+</p>
+
+<p>
+Druga część opowiadania rozgrywa się siedemnaście lat później.  Samos, syn
+Szadout i Rafira, jest już na tyle duży, by uczestniczyć we wciąż trwającej
+wojnie podjazdowej przeciwko Harkonnenom.  Planetą rządzi Abulurd Harkonnen,
+następca Dimitra Harkonnena.  W przeciwieństwie do swego poprzednika Abulurd
+wydaje się słaby, co Fremeni wykorzystują bezlitośnie.  Samos wpada na śmiały
+plan jak uderzyć w jedną z głównych rafinerii przyprawowych Harkonnenów.  Udaje
+się osiągnąć cel, ale Samos ginie w trakcie ataku &#8212; Szadout po raz kolejny
+traci najbliższą jej osobę.
+</p>
+
+<p>
+<span class="title">Ostrze krysnoża</span> całościowo jest przeciętne.  Fabuła
+zdecydowanie należy do niewyrafinowanych i przewidywalnych, ale nie jest
+najgorsza.  Trochę wątpliwości wzbudził we mnie pomysł na naibkę bez nogi.
+Fremeni wysyłali ślepców na pustynię, by tam umarli.  Taki los spotkał nawet
+Paula Muad&rsquo;Diba, co pokazuje, że wysoka pozycja społeczna nie chroniła
+przed bezlitosną tradycją.  Czy dla kalekiej fedajkinki Fremeni byliby bardziej
+wyrozumiali?  Wątpię.
+</p>
+
+<h2 class="subsection-header">Krew sardaukarów</h2>
+
+<blockquote>
+Podczas bitwy o Arrakin [&hellip;] staje przed nim ponury sardaukar, pułkownik
+baszar, i twierdzi, że z rozkazu Imperatora książę ma być traktowany honorowo.
+[&hellip;] Zastanawialiśmy się, co może łączyć pułkownika sardaukarów z księciem
+Leto; jakie mogły być jego związki z rodem Atrydów.  Pragnęliśmy też po raz
+pierwszy opowiedzieć w bardziej osobisty o losach budzącego grozę żołnierza,
+który jako mały chłopiec, uchodźca, został wcielony do korpusu sardaukarów i
+wyszkolony do roli bezlitosnego zabójcy.
+<div class="quote-source">
+  <cite><span class="title">Piaski Diuny</span></cite>, str. 16-17</div>
+</blockquote>
+
+<p>
+Głównym bohaterem <span class="title">Krwi sardaukarów</span> jest Jopati
+Kolona, sardaukar, który w <span class="title">Diunie</span> upomina się o
+należyte traktowanie księcia Leto Atrydy, pojmanego przez Harkonnenów.  Akcja
+opowiadania rozgrywa się na kilku osiach czasowych.  Część wydarzeń to
+oczywiście znana z <span class="title">Diuny</span> bitwa o Arrakin, reszta to
+retrospekcje z życia Jopatiego.  Dowiadujemy się z nich, że ród Kolonów został w
+przeszłości wymordowany przez Atrydów.  Jopati przeżył, ale został osadzony na
+Salusa Secundusie i tam brutalnie wytrenowany na sardaukara.  Od tamtej pory tli
+się w nim nienawiść do Atrydów.  W trakcie służby na dworze Imperatora Jopati
+jest jednak świadkiem wizyty księcia Leto Atrydy, która stawia pod znakiem
+zapytania jego dotychczasową chęć zemsty.
+</p>
+
+<p>
+<span class="title">Krew sardaukarów</span> to słabe opowiadanie ze schematyczną
+fabułą.  Pomysł na to, że Atrydzi zostali przymuszeni do zniszczenia innego rodu
+wydaje się skrajnie naciągany.  Nie wykluczam, że jest to w jakiś sposób
+rozwięnięte w którejś z książek będących preludiami
+do <span class="title">Diuny</span>, ale, szczerze mówiąc, nawet nie chcę tego
+wiedzieć.
+</p>
+
+<h2 class="subsection-header" id="wody-kanly">Wody kanly</h2>
+
+<blockquote>
+Źródłem kolejnej historii jest ów okres w <span class="title">Diunie</span>,
+kiedy to Paul dołącza do Fremenów i stopniowo przeistacza się w legendarnego
+Muad&rsquo;Diba.  To także czas, w którym trubadur-wojownik Gurney Halleck znika
+ze sceny.  [&hellip;] Jakież to przygody musiał wówczas przeżyć ktoś taki!
+<div class="quote-source">
+  <cite><span class="title">Piaski Diuny</span></cite>, str. 17</div>
+</blockquote>
+
+<p>
+<span class="title">Wody kanly</span> pokazują jedną z przygód Gurneya Hallecka
+podczas dwóch lat, które spędził z przemytnikami.  Gurneyem kieruje chęć zemsty,
+przemytnikami chęć zysku.  To dosyć oczywisty konflikt interesów, ale Gurney
+wpada na podstęp, który pozwala mu przekonać przemytników do przeprowadzenia
+ataku na przybywający na Arrakis harkonneński tankowiec z wodą.  Oficjalny plan
+przedstawiony przez Gurneya to porwanie tankowca i sprzedanie wody.
+Nieoficjalny, rzeczywisty plan Gurneya to zatrucie przywożonej wody.  Wymaga on
+dostania się na liniowiec Gildii, wkradnięcia się do harkonneńskiego tankowca i
+zaatakowania załogi w trakcie lądowania na planecie.  Plan kończy się jedynie
+częściowym sukcesem.
+</p>
+
+<p>
+Jak już pisałem we wstępie, kupiłem <span class="title">Piaski Diuny</span>
+przede wszystkim dla <span class="title">Wód kanly</span> i jestem mocno
+rozczarowany, bo ze wszystkich opowiadań w zbiorze jest ono jednym z
+najsłabszych.  Cała intryga opiera się na szeregu pomysłów albo wątpliwych, albo
+jawnie sprzecznych z kanonem.  W <span class="title">Diunie</span> hrabia
+Fenring zostaje nazwany &bdquo;ambasadorem u przemytników&rdquo; &#8212;
+określenie pada w drugim rozdziale w trakcie rozmowy barona, Pitera i Feyda, i
+macie pełne prawo tego nie pamiętać &#8212; ale pomysł na to, że spotyka się
+osobiście z przemytnikami gdzieś w barze w jednej z bocznych uliczek Kartagin
+jest totalnie od czapy.  Całe to spotkanie, włącznie z żądaniem prawa kanly
+przez Gurneya, w ogóle się logicznie nie klei.  Wizja tego, że ludziom Gurneya
+udaje się polecieć promem na liniowiec Gildii, a następnie zejść z pokładu
+własnego statku, przebrać za pracowników Gildii i operować na pokładzie
+liniowca to skrajny absurd.  Podobnie jak to, że Fenringowi udaje się zdobyć
+plan najważniejszego statku Gildii.  Jako fan <span class="title">Diuny</span>
+jestem skrajnie rozczarowany tym, jak w tym opowiadaniu potraktowano kanon
+pierwotnej powieści.
+</p>
+
+<h2 class="subsection-header">Dwór imperialny</h2>
+
+<p>
+Akcja <span class="title">Dworu imperialnego</span> rozgrywa się sto lat po
+zniszczeniu myślących maszyn, kilka lat od powstania Gildii Kosmicznej.  W
+zamyśle autorów wydarzenia rozgrywają się kilka lat po zakończeniu wydanych w
+2014 roku <span class="title">Nawigatorów Diuny</span>.  Tym samym wkroczyłem na
+terra incognita, ponieważ wydarzenia wymyślone przez autorów na potrzeby ich
+nowych powieści są mi całkowicie nieznane.
+</p>
+
+<p>
+Akcja opowiadania rozgrywa się, jak wskazuje tytuł, na dworze imperialnym po
+śmierci Imperatora Rodericka i świeżym objęciu władzy przez jego syna Javika.
+Głównym bohaterem opowiadania jest Willem Atryda, starający się objąć stanowisko
+nadwornego szambelana.  Ma przeciwko sobie kandydatów z innych rodów, w tym
+Danvisa Harkonnena.  W wyniku intrygi tego ostatniego kandydaci jeden po drugim
+giną, a wina zostaje zrzucona na Willema.  Willem nie jest sam w walce z
+przeciwnościami, gdyż zupełnie niespodziewanie z wizytą na Salusa Secundusa
+&#8212; dwór imperialny nie znajdował się jeszcze na Kaitanie &#8212; przybywają
+przedstawiciele odległej gałęzi rodu Atrydów z Keplera.  Pomimo wsparcia
+niespodziewanie odnalezionej rodziny, Willemowi nie udaje się oczyścić z
+zarzutów.
+</p>
+
+<p>
+Ponieważ trzymam się z dala od nowych powieści, akcja tego opowiadania jest dla
+mnie właściwie całkowicie oderwana od świata <span class="title">Diuny</span>.
+Owszem, pojawiają się znajome nazwy rodów i planet, ale nie wiążą się one w
+żaden sposób z wydarzeniami oryginalnego cyklu.  Paradoksalnie, z tego też
+powodu to opowiadanie czytało mi się nieco lepiej &#8212; nie towarzyszyło mi
+ciągłe uczucie, że to wszystko nie klei się z oryginalną powieścią.  Niestety,
+fabuła jest skrajnie banalna i przewidywalna, i ciężko się tym opowiadaniem
+zachwycić.
+</p>
+
+<h2 class="subsection-header">Czerwona zaraza</h2>
+
+<p>
+Jest to pierwsze z trzech dodatkowych, liczących po kilkanaście stron, opowiadań
+dodanych przez polskiego wydawcę.  Akcja rozgrywa się po zakończeniu dżihadu
+butlerowskiego i przedstawia fragment konfliktu między Manfordem Torondo,
+przywódcą fanatyków sprzeciwiających się wszelkiej technologii, a popierającym
+selektywny rozwój technologii Josefem Venportem, właścicielem międzygwiezdnej
+firmy transportowej VenHold, która jak zakładam stanie się zalążkiem Gildii
+Kosmicznej.  Na planecie Walgis, wiernie wspierającej fanatyków butlerowskich,
+wybucha śmiertelna zaraza.  Lekarze z Akademii Suk mają na nią lek oraz
+szczepionkę, ale problemem jest jej dostarczenie na Walgisa z powodu blokady
+nałożonej na planetę przez oddziały Manforda Torondo.  Po namowach swojego
+mentata Josef Venport daje się przekonać do próby przerwania blokady jednym ze
+swoich okrętów.  Okazuje się jednak, że mentat nie docenił potęgi fanatyzmu i
+statek z lekami oraz personelem Akademii Suk zostaje zniszczony.
+</p>
+
+<p>
+Główną zaletą tego opowiadania jest to, że jest krótkie i szybko się kończy.
+Fabuła jest prosta i próżno szukać w niej jakichś zaskoczeń.  Razi przede
+wszystkim skrajna naiwność mentata. Zgaduję, że autorzy chcieli podkreślić jak
+mocno pierwsi mentaci kierowali się logiką, ale nieumiejętność przewidzenia
+podstawowych ludzkich zachowań bardziej przypomina autyzm.  Rażą też próby
+sklejenia postaci z nowych opowiadań i powieści z postaciami znanymi
+z <span class="title">Diuny</span> &#8212; bliska pomocniczka Torondo nazywa się
+Anari Idaho.
+</p>
+
+<h2 class="subsection-header">Ślubny jedwab</h2>
+
+<p>
+W pierwotnym założeniu <span class="title">Ślubny jedwab</span> miał być jednym
+z rozdziałów <span class="title">Paula z Diuny</span>, ale ostatecznie nie
+trafił do powieści.  Opowiadanie przedstawia krótki epizod z pobytu Paula na
+Ekazie, kiedy wspólnie z Duncanem Idaho oraz dwoma innymi mistrzami miecza udaje
+się do ekazkiej dżungli.  Znajdują tam wielki kokon zbudowany przez ćmy sokole,
+z którego mają zebrać jedwab na suknię.  Niestety, kokon zostaje naruszony, a
+cała czwórka musi stoczyć potyczkę ze znajdującymi się w środku gąsienicami.
+</p>
+
+<p>
+Czytając <span class="title">Ślubny jedwab</span> czuć, że jest to fragment
+wyrwany z większej całości.  Króciutka, prosta przygoda i nic więcej.  Ponadto
+opowiadanie stoi w jawnej sprzeczności z <span class="title">Diuną</span>, gdzie
+napisane jest wprost, że podróż na Arrakis będzie dla Paula pierwszą wyprawą
+poza rodzinną planetę.  Ciężko jest więc uznać <span class="title">Ślubny
+jedwab</span> za fragment uniwersum <span class="title">Diuny</span>.
+</p>
+
+<h2 class="subsection-header">Skarb w piasku</h2>
+
+<p>
+Ostatnie z opowiadań rozgrywa się po wydarzeniach opisanych
+w <span class="title">Kapitularzu Diuną</span>.  Głównym bohaterem jest Lokar,
+kapłan Podzielonego Boga.  Dołącza on jako doradca do misji KHOAM, udającej się
+na zniszczoną przez Dostojne Matrony Rakis &#8212; przypominam, że miało to
+miejsce pod koniec <span class="title">Heretyków Diuny</span> &#8212; i mającej
+na celu znalezienie tam czegokolwiek wartościowego czym można handlować.  Misja
+ląduje w miejscu dawnego Kin i rozpoczyna poszukiwania.  Lokar początkowo nie
+cieszy się popularnością wśród pozostałych uczestników misji, ale okazuje się
+być jedynym, który jest w stanie rozeznać się w układzie ruin Kin i wskazać
+jakiekolwiek miejsca potencjalnych poszukiwań.  Ostatecznie jest też tym,
+któremu udaje się znaleźć coś wartościowego na Rakis, tytułowy skarb w piasku.
+</p>
+
+<p>
+Spośród wszystkich opowiadań w zbiorze, <span class="title">Skarb w
+piasku</span> jest jedynym, które odebrałem pozytywnie.  Spodobał mi się
+suspens, bardziej refleksyjny charakter tekstu bliższy temu co znamy z powieści
+Franka Herberta, oraz końcowa puenta opowiadania.
+</p>
+
+<h2 class="subsection-header">Podsumowanie</h2>
+
+<p>
+Kiedy 25 lat temu jako nastolatek tworzyłem pierwszą wersję Fremen Zone,
+zdarzało mi się w moich sądach nie przebierać w słowach.  Siadając do nowej
+wersji strony postanowiłem nie popełniać tego błędu i ważyć słowa.
+Recenzowanie <span class="title">Piasków Diuny</span> wystawiło to postanowienie
+na ciężką próbę i nie jestem do końca pewien, czy mi się udało.
+</p>
+
+<p>
+Zbiór opowiadań <span class="title">Piaski Diuny</span> &#8212; i chyba
+właściwie cała twórczość Briana Herberta i Kevina J. Andersona &#8212; cierpi
+na dwa zasadnicze problemy.  Pierwszy problem dotyczy samego pomysłu dopisywania
+nowych wątków do świata wykreowanego przez Franka Herberta.  Pozwolę sobie
+zacytować słowa samego Briana Herberta ze wstępu, który napisał do nowego
+wydania <span class="title">Diuny</span>:
+</p>
+
+<blockquote>
+Tata powiedział mi, że czytając <span class="title">Diunę</span> można skupić
+się na jednej wybranej warstwie powieści, a potem przeczytać ją od nowa, tym
+razem skupiając się na zupełnie innej warstwie.  Kończąc swoje niezwykłe dzieło
+celowo zostawił otwarte wątki i powiedział, że zrobił to, by resztki opowieści
+&#8212; tata nazwał je &bdquo;detrytusem&rdquo;<a class="local-link
+footnote-link" href="#detrytus" id="detrytus-ref"></a> &#8212; uczepiły się
+czytelników, żeby ci mieli ochotę wrócić do książki i przeczytać ją ponownie.
+<div class="quote-source">
+  <cite><span class="title">Dune</span></cite>
+  <a class="local-link source-link" href="#source-dune-book"
+  id="source-dune-book-ref"></a>, str. xx (sic!)</div>
+</blockquote>
+
+<p>
+Powyższe stwierdzenie trafia w sedno i opisuje esencję nie
+tylko <span class="title">Diuny</span>, ale całej literatury.  Pisarze,
+szczególnie fantastyki, powinni rozumieć, że to, co napędza ich opowieści to
+wyobraźnia.  Bez niej literatura fantastyczna traci sens.  A przecież
+dopowiadając każdy detal oryginału, uzupełniając każdy szczegół, nie zostaje
+żadne pole do wyobrażania sobie świata <span class="title">Diuny</span> &#8212;
+wszystko zostaje zaserwowane na talerzu.  Każdy mógł mieć przecież swoje własne
+wyobrażenia co robił Gurney Halleck w trakcie dwóch lat u przemytników albo jak
+wyglądało życie Szadout Mapes i co miała na myśli Jessika mówiąc do
+niej <q>Wiem, że urodziłaś dzieci i że straciłaś ukochane osoby, że ukrywałaś
+się w trwodze, że przelałaś krew i że ją jeszcze przelejesz</q>.  Twórczość
+Briana Herberta i Kevina J. Andersona odbiera fanom to, co najcenniejsze:
+możliwość wyobrażania sobie i interpretowania niedopowiedzeń powieści Franka
+Herberta.  To jest fundamentalny problem ich książek.
+</p>
+
+<p>
+Jest też jednak drugi problem: wykonanie.  Warsztat pisarski obu autorów odstaje
+od tego, co prezentował Frank Herbert.  Nie uświadczymy tu żadnych głębszych
+przemyśleń, subtelności czy złożoności.  Można próbować bronić autorów tym, że
+to tylko opowiadania i pole do popisu w kwestii złożoności intryg jest znacznie
+mniejsze.  Jest to oczywiście słuszna uwaga, ale nie usprawiedliwia to
+schematyczności i płytkości oraz stylu pisarskiego, który w najlepszym wypadku
+można uznać za poprawny, a i to nie zawsze.  Raziła mnie w szczególności
+nieumiejętność sensownego zapanowania nad tajemnicami.  Przykładowo, w trakcie
+szturmu na rezydencję w Arrakin w opowiadaniu <span class="title">Krew
+sardaukarów</span>, jeden z atakujących raportuje, że zdrajca wyłączył tarcze
+zgodnie z planem.  Czy naprawdę wiedza o harkonneńskim zdrajcy w szeregach
+Atrydów była tak powszechna, że posiadali ją nawet żołnierze na polu bitwy?  To
+zakrawa na absurd.  Inny przykład pochodzi z
+opowiadania <span class="title">Wody kanly</span>, kiedy to Gurney przebiera się
+w harkonneński mundur, <q>dopytuje tu i tam</q>, i dowiaduje się, że rzekomo
+bohaterską załogę tankowca <q>po cichu wymordowano</q>.  Widocznie nie tak
+bardzo po cichu, skoro wystarczy odrobinę popytać, i okazuje się, że wszyscy o
+tym wiedzą i dzielą się tą wiedzą z nieznajomymi.  Jest też dużo sprzeczności z
+powieściami Franka Herberta, ale chyba najbardziej rażącą jest młody Paul na
+Ekazie.
+</p>
+
+<p>
+Podchodząc do czytania <span class="title">Piasków Diuny</span>, nastawiłem się
+na fanfikową jakość i dokładnie to dostałem.  Recenzując dwadzieścia lat
+temu <span class="title">Ród Atrydów</span>, będący pierwszą powieścią Briana
+Herberta i Kevina J. Andersona osadzoną w
+uniwersum <span class="title">Diuny</span>, napisałem:
+</p>
+
+<blockquote>
+Moim zdaniem <span class="title">Diuna</span> została zubożona, przez wyjawienie
+jej wszystkich &bdquo;tajemnic&rdquo;, tym bardziej że często różne fakty są
+wyraźnie naciągane.
+<div class="quote-source">
+  <cite><a href="../legacy/index.htm" class="link">Stara wersja Fremen
+  Zone</a></cite></div>
+</blockquote>
+
+<p>
+Dzisiaj, po przeczytaniu <span class="title">Piasków Diuny</span>, mam
+identyczne odczucia.  Dopisywanie kolejnych historii w oparciu o małe i
+nieistotne fragmenty oryginału, albo wręcz przeczące temu co napisał Frank
+Herbert, tylko zubaża świat <span class="title">Diuny</span>.  I
+dlatego <span class="title">Piaski Diuny</span> z czystym sumieniem odradzam.
+</p>
+
+<h2 class="sources-header">Źródła</h2>
+
+<ol class="sources-list">
+  <li class="source-entry" id="source-dune-book">
+    <span class="title">Dune</span>, Frank Herbert, wyd. Ace Books, 2019
+    <a class="local-link back-ref" href="#source-dune-book-ref"></a>
+  </li>
+</ol>
+
+<h2 class="footnotes-header">Przypisy</h2>
+
+<ol class="footnotes-list">
+  <li id="detrytus">W ekologii: martwa materia organiczna.
+  <a class="local-link back-ref" href="#detrytus-ref"></a>
+  </li>
+</ol>
+
+
+<div class="go-back-link">
+  <a class="link" href="../ksiazki.html">Wstecz</a>
+</div>
+
+</div>
+
+</main>
+
+<footer>
+<div class="footer">
+Data ostatniej modyfikacji: 2024-04-26
+</div>
+</footer>
+
+</body>
+</html>

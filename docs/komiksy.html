@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jan Stolarek">
+  <link rel="preload" as="font" type="font/woff2" href="./fonts/fa-solid-900.woff2" crossorigin>
+  <link rel="preload" as="style" type="text/css" href="./styl.css">
+  <link rel="preload" as="image" type="image/png" href="./img/komiksy.png">
+  <link rel="stylesheet" type="text/css" href="./styl.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <link rel="license" href="./LICENCJA.md">
+  <title>Komiksy | Fremen Zone</title>
+</head>
+
+<body>
+
+<!-- Przełączanie widoczności menu na małych ekranach -->
+<script src="./showSmallMenu.js"></script>
+
+<!-- Belka nawigacyjna -->
+<nav>
+  <!-- Duże ekrany -->
+  <div class="navbar">
+    <!-- Hamburger menu widoczne na małych ekranach. -->
+    <a class="navbar-hide-large" href="javascript:void(0);"
+       onclick="showSmallMenu()" title="Menu strony">
+      <div class="hamburger-menu-icon"></div></a>
+    <!-- Wpisy menu widoczne na dużych ekranach. -->
+    <a class="large-navbar-button navbar-hide-small" href="./index.html">Wstęp</a>
+    <a class="large-navbar-button navbar-hide-small" href="./ksiazki.html">Książki</a>
+    <a class="large-navbar-button navbar-hide-small" href="./filmy.html">Filmy</a>
+    <a class="large-navbar-button navbar-hide-small" href="./gry.html">Gry</a>
+    <a class="large-navbar-button navbar-hide-small navbar-active-button" href="./komiksy.html">Komiksy</a>
+    <a class="large-navbar-button navbar-hide-small" href="./gadzety.html">Gadżety</a>
+    <a class="large-navbar-button navbar-hide-small" href="./artykuly.html">Artykuły</a>
+    <a class="large-navbar-button navbar-hide-small" href="./pliki.html">Pliki</a>
+    <a class="large-navbar-button navbar-hide-small rss-icon" type="application/rss+xml" href="./feed.xml"></a>
+    <a class="large-navbar-button navbar-hide-small legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
+  </div>
+
+  <!-- Małe ekrany.  Wpisy wyświetlane/chowane z poziomu skryptu. -->
+  <div id="small-navbar-id" class="navbar navbar-hide navbar-hide-large">
+    <a class="small-navbar-button" href="./index.html">Wstęp</a>
+    <a class="small-navbar-button" href="./ksiazki.html">Książki</a>
+    <a class="small-navbar-button" href="./filmy.html">Filmy</a>
+    <a class="small-navbar-button" href="./gry.html">Gry</a>
+    <a class="small-navbar-button navbar-active-button" href="./komiksy.html">Komiksy</a>
+    <a class="small-navbar-button" href="./gadzety.html">Gadżety</a>
+    <a class="small-navbar-button" href="./artykuly.html">Artykuły</a>
+    <a class="small-navbar-button" href="./pliki.html">Pliki</a>
+    <a class="small-navbar-button legacy-navbar-button" href="./legacy/index.htm">Stara strona</a>
+    <a class="small-navbar-button rss-icon" type="application/rss+xml" href="./feed.xml"></a>
+  </div>
+</nav>
+
+<!-- Logo sekcji -->
+<header>
+  <img src="./img/komiksy.png" class="logo" alt="">
+</header>
+
+<main>
+
+<h1 class="section-header">Komiksy</h1>
+<div class="section-body">
+
+<p>
+Komiksowe adaptacje <span class="title">Diuny</span> to stosunkowo nowy temat.
+Wprawdzie pierwszy diunowy komiks pojawił się w 1985 nakładem Marvela, ale
+na następne trzy i pół dekady w temacie zapadła cisza.  W 2020 roku nastąpiło
+ożywienie i od tamtej pory na rynku regularnie ukazują się nowe pozycje.
+Gros z nich adaptuje nową twórczość Briana Herberta i Kevina J. Andersona,
+<a class="link" href="./index/kanon.html">dlatego też większości z tych
+komiksów recenzować nie planuję</a>.  Oprócz komiksów na oficjalnej licencji
+jest też całkiem sporo adaptacji fanowskich, choć mają one znacznie mniejszy
+rozmach niż adaptacje oficjalne.  Sytuacji nie poprawia fakt, że w przeszłości
+Herbert Estate zdarzało się &bdquo;prosić&rdquo; fanów o zaprzestanie swoich
+projektów.
+</p>
+
+<p>
+Pełną listę komiksów wydanych na oficjalnej licencji
+znajdziecie <a href="https://duneinfo.com/collectors-of-dune/comics"
+class="link" rel="noreferrer">na stronie Collectors of Dune</a>.  Z kolei na
+stronie Dune News Net znajdziecie
+<a href="https://dunenewsnet.com/2022/10/history-of-dune-comic-book-adaptations/"
+class="link" rel="noreferrer">przegląd oficjalnych i nieoficjalnych adaptacji
+komiksowych</a>.
+</p>
+
+<h2 class="subsection-header">O komiksach ogólnie</h2>
+
+<p>
+Zdaję sobie sprawę, że komiksy jako takie są relatywnie niszowym hobby i nie
+każdy fan powieściowej <span class="title">Diuny</span> miał z nimi kontakt.
+Dlatego chciałbym poświęcić kilka akapitów na wprowadzenie w zagadnienie
+komiksów jako takich oraz w moje własne gusta komiksowe.  Zapewni to odpowiedni
+kontekst dla zamieszczonych poniżej recenzji.
+</p>
+
+<p>
+Historycznie na świecie wykształciły się trzy liczące się rynki komiksowe, każdy
+posiadający swój unikalny nurt artystyczny.  Największym jest rynek japoński z
+czarno-białymi mangami.  Drugi pod względem wielkości to rynek
+francusko-belgijski, zwany frankofońskim albo europejskim, którego wpływy
+rozlewają się na sąsiednie kraje, głównie Włochy i Hiszpanię.  No i wreszcie
+rynek amerykański, którego lwią część stanowią masowo produkowane komiksy
+superbohaterskie.
+</p>
+
+<p>
+Osobiście najbardziej lubię komiksy frankofońskie.  Bardzo przemawia do mnie ich
+wrażliwość: sposób ukazywania relacji międzyludzkich, losów bohaterów czy
+dylematów moralnych, a także wciągające, nietrywialne i zaskakujące scenariusze.
+Wysoko cenię sobie również stronę wizualną tych komiksów.  Najwybitniejsi
+rysownicy europejscy to rzetelnie wykształceni i niezwykle utalentowani artyści.
+Do moich ulubionych zaliczają się Andreas, Marvano, Romain Hugault, Mœbius,
+Paolo Serpieri, Milo Manara, Sergio Toppi i wreszcie Grzegorz Rosiński.
+</p>
+
+<p>
+Nie cenię sobie natomiast komiksów amerykańskich.  Zdecydowana większość
+publikacji to masowo produkowana papka o wątpliwych walorach artystycznych.
+Komiksy te bardzo często tworzone są przez osoby mające nikłe pojęcie o
+rysowaniu, nieznające podstaw anatomii, perspektywy czy oświetlenia.  Mnóstwo,
+jeśli nie większość, tytułów to rysowana na szybko i na odwal chałtura robiona
+na zlecenie właścicieli wielkich marek.  Wiem, że to co napisałem nie dotyczycy
+wszystkich komiksów amerykańskich, ale nawet w przypadku tytułów ambitnych
+fabularnie znajdą się takie narysowane w sposób nieumiejętny.  Charakterystyczne
+dla komiksów amerykańskich jest również to, że zazwyczaj okładkę rysuje ktoś
+inny niż zawartość komiksu, co często wynika z braku umiejętności głównych
+artystów do narysowania wizualnie atrakcyjnej ilustracji potrafiącej dobrze
+sprzedać zawartość.
+</p>
+
+<p>
+Tak się składa, że jak do tej pory wszystkie licencjonowane adaptacje komiksowe
+wywodzą się z kręgu komiksów amerykańskich.  Mając już wyrobiony gust w kwestii
+komiksów, jestem więc do tych pozycji z góry uprzedzony.  Czytając recenzje
+zobaczycie, że część z tych uprzedzeń się potwierdzi, a część nie.
+</p>
+
+<h2 class="subsection-header">Komiksy na oficjalnej licencji</h2>
+
+<ul class="review-list">
+  <li><a class="link" href="./komiksy/diuna-powiesc-graficzna.html">Diuna.
+  Powieść graficzna</a> (2020, 2022, 2024)
+  <p class="abstract">
+  Wierna adaptacja <span class="title">Diuny</span> podzielona na trzy tomy
+  odpowiadające trzem księgom powieści Franka Herberta.
+  </p>
+  </li>
+
+  <li><a class="link" href="./komiksy/diuna-wody-kanly.html">Diuna:
+  Wody kanly</a> (2023)
+  <p class="abstract">
+  Adaptacja opowiadania o tym samym tytule, niestety dziedzicząca wady fabularne
+  pierwowzoru.
+  </p>
+  </li>
+</ul>
+
+</div>
+
+</main>
+
+<footer>
+<div class="footer">
+Data ostatniej modyfikacji: 2024-05-03
+</div>
+</footer>
+
+</body>
+</html>
